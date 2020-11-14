@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HTML de SoloLearn</title>
+</head>
+
+<body>
+
+    <h1>HTML de SoloLearn</h1>
+
+    <div class="idc-box">
+        <p class="idc-titulo">Contenido</p>
+        <ul class="idc-lista">
+            <li>
+                <a href="#indice1">1 Introducción</a>
+                <ul>
+                    <li><a href="#subindice1">1.1 ¿Qué es HTML?</a></li>
+                    <li><a href="#subindice2">1.2 Estructura básica de un documento HTML</a></li>
+                    <li><a href="#subindice3">1.3 Creando tu primera página con HTML</a></li>
+                    <li><a href="#subindice4">1.2 Creando un Blog</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#indice2">2 Conceptos básicos de HTML</a>
+                <ul>
+                    <li><a href="#subindice5">2.1 Párrafos</a></li>
+                    <li><a href="#subindice6">2.2 Formato de Texto</a></li>
+                    <li><a href="#subindice7">2.3 Encabezados, Líneas, Comentarios</a></li>
+                    <li><a href="#subindice8">2.4 Proyecto Blog: Acerca de mí</a></li>
+                    <li><a href="#subindice9">2.5 Elementos</a></li>
+                    <li><a href="#subindice10">2.6 Atributos</a></li>
+                    <li><a href="#subindice11">2.7 Imágenes</a></li>
+                    <li><a href="#subindice12">2.8 Hipervínculos</a></li>
+                    <li><a href="#subindice13">2.9 Listas</a></li>
+                    <li><a href="#subindice14">2.10 Proyecto Blog: Mis habilidades</a></li>
+                    <li><a href="#subindice15">2.11 Tablas</a></li>
+                    <li><a href="#subindice16">2.12 Proyecto Blog: Mi horario</a></li>
+                    <li><a href="#subindice17">2.13 Elementos Inline y Block</a></li>
+                    <li><a href="#subindice18">2.14 Formularios</a></li>
+                    <li><a href="#subindice19">2.15 Proyecto Blog: Formulario de contacto</a></li>
+                    <li><a href="#subindice20">2.16 Colores HTML</a></li>
+                    <li><a href="#subindice21">2.17 Marcos</a></li>
+                    <li><a href="#subindice22">2.18 Proyecto Blog: Juntándolo todo</a></li>
+                </ul>
+            </li>
+            <li><a href="#indice3">3 HTML5</a>
+                <ul>
+                    <li><a href="#subindice23">3.1 Introducción a HTML5</a></li>
+                    <li><a href="#subindice24">3.2 Modelos de Contenido</a></li>
+                    <li><a href="#subindice25">3.3 Estructura de página HTML5</a></li>
+                    <li><a href="#subindice26">3.4 header, nav & footer</a></li>
+                    <li><a href="#subindice27">3.5 article, section & aside</a></li>
+                    <li><a href="#subindice28">3.6 El elemento audio</a></li>
+                    <li><a href="#subindice29">3.7 El elemento video</a></li>
+                    <li><a href="#subindice30">3.8 El elemento progress</a></li>
+                    <li><a href="#subindice31">3.9 API de Almacenamiento Web</a></li>
+                    <li><a href="#subindice32">3.10 API de GeoLocalización</a></li>
+                    <li><a href="#subindice33">3.11 API de Drag&Drop</a></li>
+                    <li><a href="#subindice34">3.12 SVG</a></li>
+                    <li><a href="#subindice35">3.13 Animaciones y Trazados SVG</a></li>
+                    <li><a href="#subindice36">3.14 Canvas</a></li>
+                    <li><a href="#subindice37">3.15 SVG vs. Canvas</a></li>
+                    <li><a href="#subindice38">3.16 Transformaciones de Canvas</a></li>
+                    <li><a href="#subindice39">3.17 Formularios HTML5, Parte 1</a></li>
+                    <li><a href="#subindice40">3.18 Formularios HTML5, Parte 2</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <h2 id="indice1">Introducción</h2>
+
+    <h3 id="subindice1">¿Qué es HTML?</h3>
+
+    <h4>Bienvenido a HTML!</h4>
+
+    <p>HTML corresponde a las siglas en inglés de "HiperText Markup Language" y se puede traducir al español como "Lenguaje de Marcas de Hipertexto".
+    </p>
+    <p>A diferencia de un lenguaje de scripting o programación que usa secuencias de comandos para realizar procesos, un lenguaje de marcado utiliza diferentes etiquetas para identificar el contenido.</p>
+    <p>Este es un ejemplo de una etiqueta HTML:</p>
+    <p>&lt;p&gt;Soy un párrafo&lt;/p&gt;</p>
+
+    <h4>La estructura web</h4>
+
+    <p>La capacidad de programar usando HTML es esencial para cualquier profesional de internet. Adquirir esta habilidad debería ser el punto de partida para cualquiera que esté aprendiendo cómo crear contenido para la web.</p>
+
+    <h5>Diseño Web Moderno</h5>
+
+    <p>HTML: Estructura</p>
+    <p>CSS: Presentación</p>
+    <p>JavaScript: Comportamiento</p>
+    <p>PHP o similar: Back-end</p>
+    <p>CMS: Gestión de contenidos</p>
+    <p>HTML es fácil de aprender, así que: ¡no esperes más y ponte con ello!</p>
+
+    <h3 id="subindice2">Estructura básica de un documento HTML</h3>
+
+    <h4>La etiqueta &lt;html&gt;</h4>
+
+    <p>Aunque se hayan lanzado varias versiones a lo largo de los años, los fundamentos de HTML siguen siendo los mismos.
+    </p>
+    <p>La estructura de un documento HTML se puede comparar con la de un sándwich. De la misma manera que un sándwich tiene dos rebanadas de pan, el documento HTML tiene etiquetas html de apertura y cierre.
+    </p>
+    <p>Estas etiquetas, como el pan de un sándwich, envuelven todo lo demás:</p>
+    <p>&lt;html&gt;<br> ...
+        <br> &lt;/html&gt;
+    </p>
+    <p>En un documento HTML, todo se encuentra dentro de la etiqueta &lt;html&gt;.</p>
+
+    <h4>La etiqueta &lt;head&gt;</h4>
+
+    <p>Justo después de la etiqueta HTML de apertura encontrarás la cabecera del documento, la cual se identifica con las etiquetas head de apertura y cierre.
+    </p>
+    <p>La cabecera (o head) de un archivo HTML contiene todos los elementos no visuales que ayudan a que la página funcione correctamente.</p>
+    <p>&lt;html&gt;<br> &lt;head&gt;...&lt;/head&gt;
+        <br>
+        <p>&lt;/html&gt;</p>
+        <p>Veremos los elementos de la sección head más adelante.</p>
+
+        <h4>La etiqueta &lt;body&gt;</h4>
+
+        <p>La etiqueta body sigue después de la etiqueta head. Todos los elementos visuales-estructurales están contenidos dentro de la etiqueta body.</p>
+        <p>Encabezados, párrafos, listas, citas, imágenes e hipervínculos son tan sólo algunos de los elementos que puede contener la etiqueta body.</p>
+
+        <h5>Estructura básica HTML:</h5>
+
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>La etiqueta &lt;body&gt; define el contenido principal del documento HTML.</p>
+
+        <h3 id="subindice3">Creando tu primera página con HTML</h3>
+
+        <h4>El archivo HTML</h4>
+
+        <p>Los archivos HTML son archivos de texto, por lo que puedes usar cualquier editor de texto para crear tu primera página web.</p>
+        <p>Existen algunos editores de HTML muy buenos; puedes escoger el que creas conveniente. Por ahora, vamos a escribir nuestros ejemplos en el Bloc de Notas:</p>
+        <img src="images/img_1.png">
+        <p>Añade la estructura básica HTML en el editor de texto con la frase "Esto es una línea de texto" en la sección body.</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> Esta es una línea de texto.<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>En nuestro ejemplo, hemos guardado el archivo como first.html</p>
+        <p>Al abrir el archivo, se mostrará el siguiente resultado en el navegador:</p>
+        <img src="images/img_2.jpeg" alt="">
+        <p>No olvides guardar el archivo. Los nombres de archivos HTML deberían terminar en .html o .htm</p>
+
+        <h4>La etiqueta &lt;title&gt;</h4>
+
+        <p>Para colocar en la pestaña un título que describa la página web, añade un elemento &lt;title&gt; en tu sección head:</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> Esta es una línea de texto.<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>Ésto generará el siguiente resultado:</p>
+        <img src="images/img_3.jpeg" alt="">
+        <p>El título es importante porque describe a la página y es usado por los motores de búsqueda.</p>
+
+        <h3 id="subindice4">Creando un Blog</h3>
+
+        <p>A lo largo de este curso, te ayudaremos a practicar y crear tu propio y único blog, para que retengas lo que has aprendido y seas capaz de ponerlo en práctica. Sólo avanza y sigue las instrucciones en la sección TAREA. Así es como se verá tu página
+            de blog finalizada.</p>
+        <p>Descargá el código fuente del blog mediante el siguiente enlace:</p>
+        <p><a href="Blog_de_SoloLearn.zip" download>Blog De SoloLearn</a></p>
+        <p>Una vez descargado el zip, extraé la carpeta que el mismo contiene y abrí el archivo HTML ubicado en dicha carpeta mediante cualquier navegador web para ver el blog.</p>
+        <p>No temas por largos códigos. Para el momento en que termines el curso, todo tendrá sentido y se verá fácilmente realizable. ¡Te lo garantizamos!</p>
+        <p>TAREA: <br> 1. Abre el código.<br> 2. En el encabezado, cambia el nombre por tu propio nombre.<br> 3. Cambia el título de la página. Recuerda, el título de la página está localizado dentro de la etiqueta &lt;title&gt; en la sección &lt;head&gt;
+            de la página.</p>
+
+        <h2 id="indice2">Conceptos básicos de HTML</h2>
+
+        <h3 id="subindice5">Párrafos</h3>
+
+        <h4>El elemento &lt;p&gt;</h4>
+
+        <p>Para crear un párrafo, simplemente escribe dentro del elemento <b>&lt;p&gt;</b>, entre las etiquetas de apertura y cierre:</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;p&gt;Esto es un párrafo. &lt;/p&gt;<br> &lt;p&gt;Esto es otro párrafo. &lt;/p&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>El resultado</p>
+        <img src="images/img_4.jpeg" alt="">
+        <p>Los exploradores web automáticamente agregan una línea antes y después del párrafo.</p>
+
+        <h4>Salto de línea sencillo</h4>
+
+        <p>Use la etiqueta &lt;br /&gt; para agregar un salto de línea sin empezar un nuevo párrafo:</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera Página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;p&gt;Esto es un párrafo.&lt;/p&gt;<br> &lt;p&gt;Esto es otro párrafo. &lt;/p&gt;<br> &lt;p&gt;Esto es &lt;br /&gt; un salto de línea &lt;/p&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>El elemento &lt;br /&gt; es un elemento HTML vacío. No tiene etiqueta de cierre.</p>
+        <p>Al abrir el archivo HTML en el explorador web muestra que un salto de línea simple ha sido agregado al párrafo:</p>
+        <img src="images/img_5.jpeg" alt="">
+        <p>El elemento &lt;br /&gt; es un elemento HTML vacío. No tiene etiqueta de cierre.</p>
+
+        <h3 id="subindice6">Formato de texto</h3>
+
+        <h4>Elementos de formato</h4>
+
+        <p>En HTML, hay una lista de elementos que especifican el estilo de texto.</p>
+        <p>Los elementos de formato fueron diseñados para mostrar tipos especiales de texto:</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;p&gt;Esto es texto regular &lt;/p&gt;<br> &lt;p&gt;&lt;b&gt; Texto en negrita &lt;/b&gt;&lt;/p&gt;<br> &lt;p&gt;&lt;big&gt; Texto grande &lt;/big&gt;&lt;/p&gt;<br> &lt;p&gt;&lt;i&gt; Texto en cursiva &lt;/i&gt;&lt;/p&gt;<br> &lt;p&gt;&lt;small&gt;
+            Texto pequeño &lt;/small&gt;&lt;/p&gt;<br> &lt;p&gt;&lt;strong&gt; Texto fuerte &lt;/strong&gt;&lt;/p&gt;<br> &lt;p&gt;&lt;sub&gt; Texto subíndice &lt;/sub&gt;&lt;/p&gt;<br> &lt;p&gt;&lt;sup&gt; Texto superíndice &lt;/sup&gt;&lt;/p&gt;<br>            &lt;p&gt;&lt;ins&gt; Texto insertado &lt;/ins&gt;&lt;/p&gt;<br> &lt;p&gt;&lt;del&gt; Texto borrado &lt;/del&gt;&lt;/p&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>La etiqueta &lt;strong&gt; es una etiqueta de frase. Define texto importante.</p>
+        <p>Cada párrafo en el ejemplo es formateado de manera diferente para demostrar lo que hace cada etiqueta:</p>
+        <img src="images/img_6.jpeg" alt="">
+        <p>Los exploradores muestran &lt;strong&gt; como &lt;b&gt;, y &lt;em&gt; como &lt;i&gt;.
+        </p>
+        <p>Sin embargo, los significados de estas etiquetas difieren: &lt;b&gt; e &lt;i&gt; definen texto en negrita y cursiva respectivamente, mientras que &lt;strong&gt; y &lt;em&gt; indican que el texto es "<b>importante</b>".</p>
+
+        <h3 id="subindice7">Encabezados, líneas, comentarios</h3>
+
+        <h4>Encabezados HTML</h4>
+
+        <p>HTML incluye seis niveles de encabezados, los cuales están clasificados de acuerdo a su importancia. </p>
+        <p>Estos son <b>&lt;h1&gt;</b>, <b>&lt;h2&gt;</b>, <b>&lt;h3&gt;</b>, <b>&lt;h4&gt;</b>, <b>&lt;h5&gt;</b>, y <b>&lt;h6&gt;</b>.</p>
+        <p><b>El siguiente código define todos los encabezados:</b></p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;h1&gt;Este es el encabezado 1&lt;/h1&gt;<br> &lt;h2&gt;Este es el encabezado 2&lt;/h2&gt;<br> &lt;h3&gt;Este es el encabezado 3&lt;/h3&gt;<br> &lt;h4&gt;Este es el encabezado 4&lt;/h4&gt;<br> &lt;h5&gt;Este es el encabezado 5&lt;/h5&gt;<br>            &lt;h6&gt;Este es el encabezado 6&lt;/h6&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_7.jpeg" alt="">
+        <p>No es recomendable que uses encabezados sólo para convertir el texto en negrita o cursiva, ya que los motores de búsqueda usan los encabezados para indexar la estructura de la página web y el contenido.</p>
+
+        <h4>Líneas horizontales</h4>
+
+        <p>Para crear una línea horizontal, usa la etiqueta <b>&lt;hr&gt;</b>.</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;h1&gt;Este es el encabezado 1&lt;/h1&gt;<br> &lt;h2&gt;Este es el encabezado 2&lt;/h2&gt;<br> &lt;h3&gt;Este es el encabezado 3&lt;/h3&gt;<br> &lt;h4&gt;Este es el encabezado 4&lt;/h4&gt;<br> &lt;h5&gt;Este es el encabezado 5&lt;/h5&gt;<br>            &lt;h6&gt;Este es el encabezado 6&lt;/h6&gt;<br> &lt;p&gt;Esto es un párrafo &lt;/p&gt;<br> &lt;hr&gt;
+            <br> &lt;p&gt;Esto es un párrafo &lt;/p&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_8.jpeg" alt="">
+        <p>En HTML5, la etiqueta &lt;hr&gt; define un cambio de tema.</p>
+
+        <h4>Comentarios</h4>
+
+        <p>El explorador no despliega comentarios, pero estos ayudan a documentar el código HTML para agregar descripciones, recordatorios y otras notas.</p>
+        <p>&lt;!--Aquí va tu comentario --&gt;</p>
+        <p><b>Ejemplo:</b></p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;p&gt;Esto es un párrafo &lt;/p&gt;<br> &lt;hr /&gt;<br> &lt;p&gt;Esto es un párrafo &lt;/p&gt;<br> &lt;!-- Esto es un comentario --&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_9.jpeg" alt="">
+        <p>Como puedes ver, el comentario no es desplegado en el explorador web.</p>
+        <p>Hay un signo de exclamación (!) en la etiqueta de apertura, pero no en la etiqueta de cierre.</p>
+
+        <h3 id="subindice8">Proyecto Blog: Acerca de mí</h3>
+
+        <h4>Formateando Texto</h4>
+
+        <p>Volvamos a nuestro proyecto de blog.</p>
+        <p>La sección <b>About Me</b> (Acerca de Mi) tendrá un encabezado que estará envuelto en una etiqueta &lt;h1&gt;, junto con dos párrafos que formatean el texto utilizando las etiquetas que acabas de aprender.</p>
+        <p><b>Vamos a echarle un vistazo al código:</b></p>
+        <p>&lt;!DOCTYPE html&gt;<br> &lt;html&gt;
+            <br> &lt;head&gt;
+            <br> &lt;title&gt;My Blog&lt;/title&gt;<br> &lt;link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet"&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;!-- About Me section start --&gt;<br> &lt;div class="section"&gt;<br> &lt;h1&gt;&lt;span&gt;About Me&lt;/span&gt;&lt;/h1&gt;<br> &lt;p&gt;
+            <br> Hey! I'm &lt;strong&gt;Alex&lt;/strong&gt;. Coding has changed my world. It's not just about apps. Learning to code gave me &lt;i&gt;problem-solving skills&lt;/i&gt; and a way to communicate with others on a technical level. I can also
+            develop websites and use my coding skills to get a better job. And I learned it all at &lt;strong&gt;SoloLearn&lt;/strong&gt; where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get
+            help, and learn along the way!<br> &lt;/p&gt;
+            <br> &lt;p class="quote"&gt;"Declare variables, not war"&lt;/p&gt;<br> &lt;/div&gt;
+            <br> &lt;!-- About Me section end --&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>Te puedes haber dado cuenta que también hemos utilizado algo de CSS para añadir colores y estilos a la página. Cuando completes el tutorial de HTML, ¡te recomendamos nuestro tutorial gratuito de CSS!</p>
+        <p><b>TAREA</b>:<br> 1. Crea tu propia sección "About Me" modificando el texto.<br> 2. Juega con el código; experimenta formateando el texto.</p>
+
+        <h3 id="subindice9">Elementos</h3>
+
+        <h4>Elementos HTML</h4>
+
+        <p>Los documentos HTML están hechos de elementos HTML.</p>
+        <p>Un elemento HTML se escribe usando una <b>etiqueta de inicio</b>, una <b>etiqueta de cierre</b>, y con el <b>contenido</b> en medio de ambas etiquetas.</p>
+        <p>Los documentos HTML consisten en elementos HTML anidados. En el ejemplo siguiente, el elemento body incluye las etiquetas &lt;p&gt;, &lt;br&gt; y el contenido, "Esto es un párrafo".</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt; <br> &lt;p&gt;Esto es un párrafo &lt;br&gt;&lt;/p&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>Algunos elementos HMTL (como la etiqueta &lt;br&gt; ) no tienen etiquetas de cierre.</p>
+        <p>Algunos elementos son bastante pequeños. Como no podemos agregar contenido dentro de una etiqueta de salto de línea, y no tiene una etiqueta de apertura ni tampoco de cierre, este es un elemento separado y sencillo.</p>
+        <p>Por lo tanto, HTML es en realidad múltiples secuencias de comandos utilizando elementos dentro de elementos.</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;p&gt;Esto es un párrafo&lt;/p&gt;<br> &lt;p&gt;Esto es un &lt;br&gt; salto de línea&lt;/p&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>Algunos elementos HMTL (como la etiqueta &lt;br&gt;) no tienen etiquetas de cierre.</p>
+
+        <h3 id="subindice10">Atributos</h3>
+
+        <h4>Atributos HMTL</h4>
+
+        <p>Los atributos proveen <b>información adicional</b> sobre un elemento o etiqueta, a la vez que lo <b>modifican</b>. La mayoría de atributos tienen un valor; el valor modifica el atributo.</p>
+        <p>&lt;p align="center"&gt; <br> Este texto está alineado hacia el centro<br> &lt;/p&gt;
+        </p>
+        <p>En este ejemplo, el valor de "center" indica que el contenido dentro del elemento p debería estar alineado hacia el centro.</p>
+        <img src="images/img_10.jpeg" alt="">
+        <p>Los atributos siempre están especificados en la etiqueta de apertura, y aparecen en parejas de nombre="valor".</p>
+
+        <h4>Atributos de dimensión</h4>
+
+        <p>Como un ejemplo, podemos modificar la línea horizontal para que tenga un ancho de 50 pixeles.</p>
+        <p><b>Ésto se puede hacer usando el atributo width:</b></p>
+        <p>&lt;hr width="50px"&gt;</p>
+        <p><b>El ancho de un elemento también puede ser modificado usando porcentajes:</b></p>
+        <p>&lt;hr width="50%"&gt;</p>
+        <p>La anchura de un elemento se puede definir mediante píxeles o porcentajes.</p>
+
+        <h4>El atributo align</h4>
+
+        <p>El atributo <b>align</b> es usado para especificar cómo alinear el texto.</p>
+        <p>En el siguiente ejemplo, tenemos un párrafo que está alineado hacia el centro, y una línea que está alineada hacia la derecha.</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Atributos&lt;/title&gt;
+            <br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;p align="center"&gt;Esto es un texto &lt;br&gt;<br> &lt;hr width="10%" align="right" &gt; Esto también es un texto.<br> &lt;/p&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>El atributo de alineación &lt;p&gt; no está soportado en HTML5.</p>
+        <p>Puedes estarte preguntando qué pasa si intentamos aplicar atributos contradictorios dentro del mismo elemento.</p>
+        <p>&lt;p align="center"&gt;<br> Esto es un texto.<br> &lt;hr width="50%" align="left" &gt;<br> &lt;/p&gt;
+        </p>
+        <img src="images/img_11.png" alt="">
+        <p>El atributo de alineación &lt;p&gt; no está soportado en HTML5.</p>
+
+        <h3 id="subindice11">Imágenes</h3>
+
+        <h4>La etiqueta &lt;img&gt;</h4>
+
+        <p>La etiqueta <b>&lt;img&gt;</b> es usada para insertar una imagen. Contiene sólo atributos, y no tiene una etiqueta de cierre.</p>
+        <p>La URL de la imagen (dirección) puede ser definida usando el atributo src.</p>
+        <p><b>La sintaxis HTML de una imagen se ve así:</b></p>
+        <p>&lt;img src="image.jpg"&gt;</p>
+        <p>El atributo alt especifica un texto alternativo para una imagen.</p>
+
+        <h4>Ubicación de la imagen</h4>
+
+        <p>Para que el explorador web pueda desplegar una imagen, necesitamos colocar dentro de comillas la ubicación de la imagen como valor del atributo src.</p>
+        <p>Por ejemplo, tenemos una foto llamada "tree.jpg" en la misma carpeta que el archivo HTML, su código debería verse así:</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt; <br> &lt;img src="http://www.sololearn.com/images/tree.jpg" alt="" &gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>En caso de que la imagen no pueda ser mostrada, el atributo alt especifica un texto alternativo que describe la imagen en palabras. El atributo alt es <b>requerido</b>.</p>
+
+        <h4>Cambiar el tamaño de una imagen</h4>
+        <p>Para definir el tamaño de una imagen, usa los atributos width y height (ancho y alto).</p>
+        <p><b>El valor puede ser especificado en pixeles o como un porcentaje:</b></p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt; <br> &lt;img src="http://www.sololearn.com/images/tree.jpg" <br> height="150px" width="150px" alt="" &gt;<br> &lt;br /&gt;<br> &lt;img src="http://www.sololearn.com/images/tree.jpg" <br> height="50%" width="50%" alt="" &gt;<br>            &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>La carga de imágenes toma tiempo. Usar imágenes grandes puede volver lenta tu página, así que úselas con precaución.</p>
+
+        <h4>Borde de la imagen</h4>
+
+        <p>Por defecto, una imagen no tiene bordes. Usa el atributo border dentro de la etiqueta image para crear un borde alrededor de la imagen.</p>
+        <p>&lt;img src="http://www.sololearn.com/images/tree.jpg" height="150px" width="150px" border="1px" alt="" &gt; </p>
+        <p>Por defecto, Internet Explorer 9, y sus versiones anteriores, despliegan un borde alrededor de la imagen a menos que el atributo border sea definido.</p>
+
+        <h3 id="subindice12">Hipervínculos</h3>
+
+        <h4>La etiqueta &lt;a&gt; </h4>
+
+        <p>Los hipervínculos también son una parte fundamental de cualquier página web. Puede agregar hipervínculos a textos o imágenes que le permitirán al usuario hacer click en ellos para luego ser redirigidos a otro archivo o página web.</p>
+        <p>En HTML, los hipervínculos son definidos usando la etiqueta <b>&lt;a&gt;</b>.</p>
+        <p>Use el atributo <b>href</b> para definir la dirección de destino del hipervínculo:</p>
+        <p>&lt;a href=""&gt;&lt;/a&gt;</p>
+        <p>Para vincular una imagen a otro documento, simplemente introduce la etiqueta &lt;img&gt; entre etiquetas &lt;a&gt;.</p>
+
+        <h4>Creando su primer hipervínculo</h4>
+
+        <p>En el siguiente ejemplo, se define un hipervínculo al sitio web de SoloLearn es definido:</p>
+        <p>&lt;a href="http://www.sololearn.com"&gt;<br> Aprende jugando<br> &lt;/a&gt;
+        </p>
+        <p>Una vez que el código ha sido guardado, "Aprende jugando" será mostrado como un hipervínculo:</p>
+        <p><a href="http://www.sololearn.com">
+Aprende jugando
+</a></p>
+        <p>Haciendo click en "<b>Aprende jugando</b>" lo redirecciona a www.sololearn.com</p>
+        <p>Los hipervínculos pueden ser absolutos o relativos.</p>
+
+        <h4>El atributo target</h4>
+
+        <p>El atributo <b>target</b> especifica donde abrir el documento vinculado.</p>
+        <p>Dándole un valor <b>_blank</b> al atributo abrirá el hipervínculo en una nueva ventana o pestaña:</p>
+        <p>&lt;a href="http://www.sololearn.com" target="_blank"&gt;<br> Aprenda jugando<br> &lt;/a&gt;
+        </p>
+        <p>Un link que ha sido visitado se muestra en violeta y subrayado.</p>
+
+        <h3 id="subindice13">Listas</h3>
+
+        <h4>Listas HTML Ordenadas</h4>
+
+        <p>Una lista ordenada empieza con la etiqueta <b>&lt;ol&gt;</b> y cada ítem es definido por la etiqueta <b>&lt;li&gt;</b>.</p>
+        <p>Aquí un ejemplo de una <b>lista ordenada</b>:</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;ol&gt;
+            <br> &lt;li&gt;Rojo&lt;/li&gt;
+            <br> &lt;li&gt;Azul&lt;/li&gt;
+            <br> &lt;li&gt;Verde&lt;/li&gt;
+            <br> &lt;/ol&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_12.jpeg" alt="">
+        <p>Los ítems de la lista serán automáticamente marcados con números.</p>
+
+        <h4>Lista HTML sin ordenar</h4>
+
+        <p>Una lista sin ordenar comienza con la etiqueta &lt;ul&gt;.</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;
+            <br> &lt;title&gt;Primera página&lt;/title&gt;<br> &lt;/head&gt; <br> &lt;body&gt;
+            <br> &lt;ul&gt;
+            <br> &lt;li&gt;Rojo&lt;/li&gt;
+            <br> &lt;li&gt;Azul&lt;/li&gt;
+            <br> &lt;li&gt;Verde&lt;/li&gt;
+            <br> &lt;/ul&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_13.jpeg" alt="">
+        <p>Los ítems de la lista serán marcados con viñetas.</p>
+
+        <h3 id="subindice14">Proyecto Blog: Mis Habilidades</h3>
+
+        <h4>Mis habilidades</h4>
+
+        <p>¡De vuelta a nuestro blog! Vamos a crear la sección <b>Mis habilidades</b>, la cual es una lista no ordenada de idiomas que conoces.</p>
+        <p><b>Recordatorio</b>: Utiliza la etiqueta &lt;ul&gt;, en la cual cada elemento es representado con la etiqueta &lt;li&gt;, para crear una lista no ordenada.</p>
+        <p><b>Echa un vistazo al código: </b></p>
+        <p>&lt;!DOCTYPE html&gt;<br> &lt;html&gt;
+            <br> &lt;head&gt;
+            <br> &lt;title&gt;My Blog&lt;/title&gt;<br> &lt;link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet"&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;!-- My Skills section start --&gt;<br> &lt;div class="section"&gt;<br> &lt;h1&gt;&lt;span&gt;My Skills&lt;/span&gt;&lt;/h1&gt;<br> &lt;ul&gt;
+            <br> &lt;li&gt;HTML&lt;/li&gt;
+            <br> &lt;li&gt;CSS&lt;/li&gt;
+            <br> &lt;li&gt;JavaScript&lt;/li&gt;
+            <br> &lt;/ul&gt;
+            <br> &lt;/div&gt;
+            <br> &lt;!-- My Skills section end --&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+
+        </p>
+        <p>Aprenderemos cómo añadir barras de progreso a cada una de las habilidades en nuestro módulo siguiente.</p>
+        <p><b>TAREA</b>:
+            <ol>
+                <li>Crea tu propia sección My Skills (Mis Habilidades).</li>
+                <li> Utiliza la etiqueta &lt;a&gt; para hacer de cada elemento de la lista un enlace.</li>
+            </ol>
+        </p>
+
+        <h3 id="subindice15">Tablas</h3>
+
+        <h4>Creando una tabla</h4>
+
+        <p>Las tablas son definidas usando la etiqueta <b>&lt;table&gt;</b>.</p>
+        <p>Las tablas son divididas en filas con la etiqueta <b>&lt;tr&gt;</b>.</p>
+        <p>Las filas de la tabla son divididas en columnas (datos de la tabla) con la etiqueta <b>&lt;td&gt;</b>.</p>
+        <p>Aquí hay un ejemplo de una tabla con <b>una fila</b> y <b>tres columnas</b>:</p>
+        <p>&lt;table&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;/table&gt;
+        </p>
+        <p>Las etiquetas de datos de la tabla &lt;td&gt; actúan como contenedores de datos dentro de la tabla.</p>
+        <p>Pueden contener todo tipo de elementos HTML como texto, imágenes, listas, otras tablas, y demás.</p>
+
+        <h4>Los atributos Border y Colspan </h4>
+
+        <p>Un borde puede ser agregado usando el atributo </b>border</b>:</p>
+        <p>&lt;table border="2"&gt;</p>
+        <p>La celda de una tabla puede expandirse entre dos o más columnas:</p>
+        <p>&lt;table border="2"&gt;<br> &lt;tr&gt;
+            <br> &lt;td&gt;Rojo&lt;/td&gt;
+            <br> &lt;td&gt;Azul&lt;/td&gt;
+            <br> &lt;td&gt;Verde&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;&lt;br /&gt;&lt;/td&gt;<br> &lt;td colspan="2"&gt;&lt;/td&gt;<br> &lt;/tr&gt;
+            <br> &lt;/table&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_14.jpeg" alt="">
+        <p>El atributo border no está soportado en HTML5.</p>
+
+        <h4>Colspan de Colores</h4>
+
+        <p>El siguiente ejemplo demuestra el atributo colspan en acción:</p>
+        <p>&lt;table border="2"&gt;<br> &lt;tr&gt;
+            <br> &lt;td&gt;Rojo&lt;/td&gt;
+            <br> &lt;td&gt;Azul&lt;/td&gt;
+            <br> &lt;td&gt;Verde&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;Amarillo&lt;/td&gt;
+            <br> &lt;td colspan="2"&gt;Naranja&lt;/td&gt;<br> &lt;/tr&gt;
+            <br> &lt;/table&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_15.jpeg" alt="">
+        <p>Puedes ver que la celda que contiene la palabra "Naranja" se expande a través de dos columnas.</p>
+        <p>Para hacer que una celda se expanda a más de una fila, usa el atributo <b>rowspan</b>.</p>
+
+        <h4>Los atributos align y bgcolor</h4>
+
+        <p>Para cambiar la posición de una tabla, usa el atributo <b>align</b> dentro de la etiqueta table:</p>
+        <p>&lt;table align="center"&gt;</p>
+        <p>Ahora especifiquemos un color de fondo rojo para una celda de tabla. Para hacer eso, utiliza el atributo bgcolor.</p>
+        <p>&lt;table border="2"&gt;<br> &lt;tr&gt;
+            <br> &lt;td bgcolor="red"&gt;Rojo&lt;/td&gt;<br> &lt;td&gt;Azul&lt;/td&gt;
+            <br> &lt;td&gt;Verde&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;Amarillo&lt;/td&gt;
+            <br> &lt;td colspan="2"&gt;Naranja&lt;/td&gt;<br> &lt;/tr&gt;
+            <br> &lt;/table&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_16.jpeg" alt="">
+        <p>En el caso de dar estilo a los elementos, CSS es más efectivo que HTML. Prueba nuestro curso "<b>Aprende CSS</b>" para aprender más sobre CSS y estilos.</p>
+
+        <h3 id="subindice16">Proyecto Blog: Mi horario</h3>
+
+        <h4>Mi horario</h4>
+
+        <p>Utiliza etiquetas de tabla para añadir una tabla a tu blog que represente tu horario diario de estudio.</p>
+        <p>Las etiquetas &lt;th&gt; representan encabezados de tabla.</p>
+        <p><b>Echa un vistazo al siguiente cógido:</b></p>
+        <p>&lt;h1&gt;&lt;span&gt;My Coding Schedule&lt;/span&gt;&lt;/h1&gt;<br> &lt;table&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;th&gt;Day&lt;/th&gt;
+            <br> &lt;th&gt;Mon&lt;/th&gt;
+            <br> &lt;th&gt;Tue&lt;/th&gt;
+            <br> &lt;th&gt;Wed&lt;/th&gt;
+            <br> &lt;th&gt;Thu&lt;/th&gt;
+            <br> &lt;th&gt;Fri&lt;/th&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;8-8:30&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Learn&lt;/td&gt;<br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;9-10&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Practice&lt;/td&gt;<br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;1-1:30&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Play&lt;/td&gt;<br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;3:45-5&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Code&lt;/td&gt;<br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;6-6:15&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Discuss&lt;/td&gt;<br> &lt;/tr&gt;
+            <br> &lt;/table&gt;
+        </p>
+        <p>Las etiquetas &lt;td&gt; vacías representan celdas de tabla vacías. Son necesarias porque mantienen la estructura de la tabla.</p>
+        <p><b>TAREA</b>: ¡Personaliza la tabla para crear tu horario particular!</p>
+
+        <h3 id="subindice17">Elementos Inline y Block</h3>
+
+        <h4>Tipos de Elementos</h4>
+
+        <p>En HTML, la mayoría de elementos son definidos como elementos a nivel de bloque (<b>block</b>) o en línea (<b>inline</b>).</p>
+        <p>Los elementos a nivel de bloque empiezan desde una nueva línea. </p>
+        <p><b>Por Ejemplo</b>: &lt;h1&gt;, &lt;form&gt;, &lt;li&gt;, &lt;ol&gt;, &lt;ul&gt;, &lt;p&gt;, &lt;pre&gt;, &lt;table&gt;, &lt;div&gt;, etc.</p>
+        <p>Los elementos en línea son normalmente desplegados sin los saltos de línea.</p>
+        <p><b>Por Ejemplo</b>: &lt;b&gt;, &lt;a&gt;, &lt;strong&gt;, &lt;img&gt;, &lt;input&gt;, &lt;em&gt;, &lt;span&gt;, etc.</p>
+        <p>El elemento <b>&lt;div&gt;</b> es un elemento a nivel de bloque que es a menudo utilizado como contenedor para otros elementos HTML.</p>
+        <p>Cuando se utiliza en conjunto con CSS, el elemento <b>&lt;div&gt;</b> puede ser utilizado para darle estilo a <b>bloques de contenido</b>:</p>
+        <p>&lt;html&gt;<br> &lt;body&gt;
+            <br> &lt;h1&gt;Encabezado&lt;/h1&gt;
+            <br> &lt;div style="background-color:green; color:white; padding:20px;"&gt;<br> &lt;p&gt;Esto sería el párrafo de contenido.&lt;/p&gt;<br> &lt;p&gt;Justo aquí tienes otro artículo de contenido.&lt;/p&gt;<br> &lt;/div&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_16.png" alt="">
+        <p>El elemento <b>&lt;span&gt;</b> es un elemento de línea que es a menudo utilizado como contenedor para algún texto.</p>
+        <p>Cuando se utiliza en conjunto con CSS, el elemento <b>&lt;span&gt;</b> puede ser utilizado para darle estilo a <b>partes del texto</b>:.</p>
+        <p>&lt;html&gt;<br> &lt;body&gt;
+            <br> &lt;h2&gt;Algún mensaje &lt;span style="color:red"&gt;importante&lt;/span&gt;&lt;/h2&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_17.png" alt="">
+        <p>Otros elementos pueden ser usados como elementos del nivel de bloque o elementos en línea. Esto incluye los siguientes elementos:</p>
+        <p><b>APPLET - </b>applet Java embebido</p>
+        <p><b>IFRAME - </b>marco en línea</p>
+        <p><b>INS - </b>texto insertado</p>
+        <p><b>MAP - </b>mapa de imagen</p>
+        <p><b>OBJECT - </b>objeto incrustado</p>
+        <p><b>SCRIPT - </b>secuencia de comandos dentro de un documento HTML</p>
+        <p>Puede insertar elementos en línea dentro de los elementos de bloque. Por ejemplo, puede tener múltiples elementos <b>&lt;span&gt;</b> dentro de un elemento <b>&lt;div&gt;</b>.</p>
+        <p>Los elementos en línea no pueden contener ningún elemento de nivel de bloque.</p>
+
+        <h3 id="subindice18">Formularios</h3>
+
+        <h4>El elemento &lt;form&gt; </h4>
+
+        <p>Los formularios HTML son usados para recolectar información del usuario.</p>
+        <p>Los formularios son definidos usando el elemento &lt;form&gt; , con sus etiquetas de apertura y cierre:</p>
+        <p>&lt;body&gt;
+            <br> &lt;form&gt;…&lt;/form&gt;
+            <br> &lt;/body&gt;
+        </p>
+        <p>Utiliza el atributo <b>action</b> para apuntar a una página web que cargará después de que el usuario envíe el formulario.</p>
+        <p>&lt;form action="http://www.sololearn.com"&gt; <br> &lt;/form&gt;
+        </p>
+        <p>Usualmente, el formulario es enviado a una página web en un servidor web.</p>
+
+        <h4>Los atributos method y name </h4>
+
+        <p>El atributo <b>method</b> especifica el método HTTP (<b>GET</b> o <b>POST</b>) a ser usado cuando los formularios son enviados (observe abajo la descripción):</p>
+        <p>&lt;form action="url" method="GET"&gt;</p>
+        <p>&lt;form action="url" method="POST"&gt;</p>
+        <p>Cuando usamos <b>GET</b>, los datos del formulario serán visibles en la dirección de la página.</p>
+        <p>Utiliza <b>POST</b> si el formulario está actualizando datos, o incluye información sensible (contraseñas). POST ofrece mejor seguridad porque los datos enviados no son visibles en la dirección de la página.</p>
+        <p>Para capturar los datos de entrada del usuario, necesitamos los elementos del formulario correspondientes, como por ejemplo los campos de texto.</p>
+        <p>El elemento <b>&lt;input&gt;</b> tiene muchas variaciones, dependiendo del tipo de atributo. Puede ser texto, contraseña, radio, URL, envío, etc.</p>
+        <p><b>El siguiente ejemplo muestra un formulario solicitando nombre de usuario y contraseña:</b></p>
+        <p>&lt;form&gt;<br> &lt;input type="text" name="usuario" /&gt; &lt;br /&gt;<br> &lt;input type="password" name="contraseña" /&gt;<br> &lt;/form&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_18.jpeg" alt="">
+        <p>El atributo name especifica un nombre para un formulario.</p>
+
+        <h4>Elementos de Formularios</h4>
+
+        <p>Si cambiamos el tipo input a radio, permitiremos al usuario seleccionar sólo una de un número de opciones desplegadas:</p>
+        <p>&lt;input type="radio" name="gender" value="male" /&gt;Masculino &lt;br&gt;<br> &lt;input type="radio" name="gender" value="female" /&gt;Femenino &lt;br&gt;</p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_19.jpeg" alt="">
+        <p>El tipo "checkbox" permite al usuario seleccionar más de una opción:</p>
+        <p>&lt;input type="checkbox" name="gender" value="1" /&gt;Masculino &lt;br&gt;<br> &lt;input type="checkbox" name="gender" value="2" /&gt;Femenino &lt;br&gt;</p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_20.jpeg" alt="">
+        <p>La etiqueta &lt;input&gt; no tiene etiqueta de cierre.</p>
+        <p>El tipo submit <b>envía un formulario</b> a la dirección especificada en su atributo action:</p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_21.jpeg" alt="">
+        <p>Luego de que el formulario es enviado, los datos deberían ser procesados en el servidor usando un lenguaje de programación, como PHP.</p>
+
+        <h3 id="subindice19">Proyecto Blog: Formulario de contacto</h3>
+
+        <h4>Formulario de contacto</h4>
+
+        <p>A continuación, vamos a crear un <b>Formulario de Contacto</b> (Contact Form) para tu blog. El formulario incluirá campos de Nombre, correo electrónico y mensaje. También añadiremos un botón para Enviar.</p>
+        <p>Revisa el código:</p>
+        <p>&lt;!DOCTYPE html&gt;<br> &lt;html&gt;
+            <br> &lt;head&gt;
+            <br> &lt;title&gt;My Blog&lt;/title&gt;<br> &lt;link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet"&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;!-- Form section start --&gt;<br> &lt;div class="section"&gt;<br> &lt;h1&gt;&lt;span&gt;Contact Me&lt;/span&gt;&lt;/h1&gt;<br> &lt;form&gt;
+            <br> &lt;input name="name" type="text" /&gt;&lt;br/&gt;<br> &lt;input name="email" type="email" /&gt;&lt;br/&gt;<br> &lt;textarea name="message" &gt;&lt;/textarea&gt;<br> &lt;input type="submit" value="SEND" class="submit" /&gt;<br> &lt;/form&gt;
+            <br> &lt;/div&gt;
+            <br> &lt;!-- Form section end --&gt;<br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>Esto es sólo una página HTML estática, por lo que no podrá enviar realmente el formulario. Necesitas crear el código del lado del servidor para poder enviar un formulario real y procesar la información. Para aprender cómo, completa el curso PHP
+            de SoloLearn una vez que hayas completado los cursos de HTML y CSS.</p>
+        <p><b>TAREA</b>: ¡Revisa el código y personaliza el formulario para adaptarlo a tus necesidades!</p>
+
+        <h3 id="subindice20">Colores HTML</h3>
+
+        <h4>Colores HTML!</h4>
+
+        <p>Los colores en HTML son expresados como valores hexadecimales. </p>
+        <p><b>0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F</b></p>
+        <p>Como puede ver, hay 16 valores, desde 0 hasta F. El cero representa el nivel más bajo, y F representa el más alto.</p>
+
+        <h4>Modelo de Color HTML </h4>
+
+        <p>Los colores son especificados en combinaciones de rojo, verde y azul claro(<b>RGB</b> por sus siglas en inglés).</p>
+        <p>Los valores hexadecimales son escritos usando el símbolo numeral (#), seguido por tres o seis caracteres hexadecimales.</p>
+        <p>Como se muestra en la imagen siguiente, los círculos se sobreponen, formando nuevos colores:</p>
+        <img src="images/img_22.png" alt="">
+        <p>Los valores de color RBG están soportados en todos los navegadores.</p>
+
+        <h4>Valores de Colores</h4>
+
+        <p>Todas las combinaciones posibles de <b>rojo</b>, <b>verde</b> y <b>azul</b> suman más de 16 millones.</p>
+        <p><b>Acá hay tan solo algunos de ellos:</b></p>
+        <img src="images/img_23.png" alt="">
+        <p>Podemos mezclar los colores para formar colores adicionales.</p>
+        <p><b>Mezcla de naranja y rojo:</b></p>
+        <img src="images/img_24.png" alt="">
+        <p>Los valores de color hexadecimales están soportados en todos los navegadores.</p>
+
+        <h4>Colores de fondo y de fuente</h4>
+
+        <p>El atributo <b>bgcolor</b> puede ser usado para cambiar el color de fondo de la página web. </p>
+        <p>Este ejemplo producirá un fondo azul oscuro con un encabezado blanco.</p>
+        <p>&lt;html&gt;<br> &lt;head&gt; <br> &lt;title&gt;Primera página&lt;/title&gt; <br> &lt;/head&gt;
+            <br> &lt;body bgcolor="#000099"&gt;<br> &lt;h1&gt;
+            <br> &lt;font color="#FFFFFF"&gt; Encabezado blanco &lt;/font&gt;<br> &lt;/h1&gt; <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_25.jpeg" alt="">
+        <p>El atributo color especifica el color del texto dentro de un elemento &lt;font&gt;.</p>
+
+        <h3 id="subindice21">Marcos</h3>
+
+        <h4>La etiqueta &lt;frame&gt;</h4>
+
+        <p>Una página puede dividirse en marcos usando un documento especial de marco.</p>
+        <p>La etiqueta <b>&lt;frame&gt;</b> define una ventana específica (marco) dentro de un <b>&lt;frameset&gt;</b>. Cada &lt;frame&gt; en un &lt;frameset&gt; puede tener diferentes atributos, como borde, desplazamiento, la habilidad de redimensionar,
+            etc. El elemento &lt;frameset&gt; especifica el número de columnas o filas en el conjunto de marcos o frameset, y también el porcentaje o número de píxeles de espacio que cada uno ocupa.</p>
+        <p>&lt;frameset cols="100, 25%, *"&gt;&lt;/frameset&gt;
+            <br> &lt;frameset rows="100, 25%, *"&gt;&lt;/frameset&gt;</p>
+        <p>La etiqueta &lt;frameset&gt; no está soportada en HTML5.</p>
+
+        <h4>Trabajando con Marcos</h4>
+
+        <p>Use el atributo <b>&lt;noresize&gt;</b> para impedir que el usuario pueda redimensionar un elemento &lt;frame&gt;:</p>
+        <p>&lt;frame noresize="noresize"&gt;</p>
+        <p>El contenido del marco debería ser definido usando el atributo <b>src</b>.</p>
+        <p>Finalmente, el elemento <b>&lt;noframes&gt;</b> provee una alternativa para los exploradores que no soportan marcos para visualizar la página. El elemento puede contener una página alternativa, completa con una etiqueta body y otros elementos.</p>
+        <p>&lt;frameset cols="25%,50%,25%"&gt;
+            <br> &lt;frame src="a.htm" /&gt;
+            <br> &lt;frame src="b.htm" /&gt;
+            <br> &lt;frame src="c.htm" /&gt;
+            <br> &lt;noframes&gt;¡Los marcos no son soportados!&lt;/noframes&gt;
+            <br> &lt;/frameset&gt;
+        </p>
+        <p>La etiqueta &lt;frame&gt; no está soportada en HTML5.</p>
+
+        <h3 id="subindice22">Proyecto Blog: Juntándolo todo</h3>
+
+        <h4>Proyecto Blog</h4>
+
+        <p>Para finalizar nuestro blog, utilizaremos un frame (marco) para incluir un video de YouTube. También vamos a crear una sección <b>Follow Me</b> (sígueme) que incluye enlaces al final de la página.</p>
+        <p>Revisa el código final:</p>
+        <p>&lt;!DOCTYPE html&gt;<br> &lt;html&gt;
+            <br> &lt;head&gt;
+            <br> &lt;title&gt;My Blog&lt;/title&gt;<br> &lt;link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet"&gt;<br> &lt;/head&gt;
+            <br> &lt;body&gt;
+
+            <br> &lt;!-- header start --&gt;<br> &lt;div id="header" class="section"&gt;<br> &lt;img alt="" class="img-circle" src="https://code.sololearn.com/Icons/Avatars/0.jpg"&gt;<br> &lt;p&gt;Alex Simpson&lt;/p&gt;<br> &lt;/div&gt;
+            <br> &lt;!-- header end --&gt;<br> &lt;!-- About Me section start --&gt;<br> &lt;div class="section"&gt;<br> &lt;h1&gt;&lt;span&gt;About Me&lt;/span&gt;&lt;/h1&gt;<br> &lt;p&gt;
+            <br> Hey! I'm &lt;strong&gt;Alex&lt;/strong&gt;. Coding has changed my world. It's not just about apps. Learning to code gave me &lt;i&gt;problem-solving skills&lt;/i&gt; and a way to communicate with others on a technical level. I can also
+            develop websites and use my coding skills to get a better job. And I learned it all at &lt;strong&gt;SoloLearn&lt;/strong&gt; where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get
+            help, and learn along the way!<br> &lt;/p&gt;
+            <br> &lt;p class="quote"&gt;"Declare variables, not war"&lt;/p&gt;<br> &lt;/div&gt;
+            <br> &lt;!-- About Me section end --&gt;<br> &lt;!-- My Schedule section start --&gt;<br> &lt;div class="section"&gt;<br> &lt;h1&gt;&lt;span&gt;My Coding Schedule&lt;/span&gt;&lt;/h1&gt;<br> &lt;table&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;th&gt;Day&lt;/th&gt;
+            <br> &lt;th&gt;Mon&lt;/th&gt;
+            <br> &lt;th&gt;Tue&lt;/th&gt;
+            <br> &lt;th&gt;Wed&lt;/th&gt;
+            <br> &lt;th&gt;Thu&lt;/th&gt;
+            <br> &lt;th&gt;Fri&lt;/th&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;8-8:30&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Learn&lt;/td&gt;<br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;9-10&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Practice&lt;/td&gt;<br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;1-1:30&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Play&lt;/td&gt;<br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;3:45-5&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Code&lt;/td&gt;<br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;/tr&gt;
+            <br> &lt;tr&gt;
+            <br> &lt;td&gt;6-6:15&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td&gt;&lt;/td&gt;
+            <br> &lt;td class="selected"&gt;Discuss&lt;/td&gt;<br> &lt;/tr&gt;
+            <br> &lt;/table&gt;
+            <br> &lt;/div&gt;
+            <br> &lt;!-- My Schedule section end --&gt;<br> &lt;!-- My Skills section start --&gt;<br> &lt;div class="section"&gt;<br> &lt;h1&gt;&lt;span&gt;My Skills&lt;/span&gt;&lt;/h1&gt;<br> &lt;ul&gt;
+            <br> &lt;li&gt;HTML &lt;br /&gt;<br> &lt;progress min="0" max="100" value="80"&gt;&lt;/progress&gt;<br> &lt;/li&gt;
+            <br> &lt;li&gt;JavaScript &lt;br /&gt;<br> &lt;progress min="0" max="100" value="50"&gt;&lt;/progress&gt;<br> &lt;/li&gt;
+            <br> &lt;li&gt;Python &lt;br /&gt;<br> &lt;progress min="0" max="100" value="30"&gt;&lt;/progress&gt;<br> &lt;/li&gt;
+            <br> &lt;/ul&gt;
+            <br> &lt;/div&gt;
+            <br> &lt;!-- My Skills section end --&gt;<br> &lt;!-- Media section start --&gt;<br> &lt;div class="section"&gt;<br> &lt;h1&gt;&lt;span&gt;My Media&lt;/span&gt;&lt;/h1&gt;<br> &lt;iframe height="150" width="300" src="https://www.youtube.com/embed/Q6_5InVJZ88"
+            allowfullscreen frameborder="0"&gt;&lt;/iframe&gt;<br> &lt;/div&gt;
+            <br> &lt;!-- Media section end --&gt;<br> &lt;!-- Form section start --&gt;<br> &lt;div class="section"&gt;<br> &lt;h1&gt;&lt;span&gt;Contact Me&lt;/span&gt;&lt;/h1&gt;<br> &lt;svg class="face" height="100" width="100"&gt;<br> &lt;circle cx="50"
+            cy="50" r="50" fill="#FDD835"/&gt;<br> &lt;circle cx="30" cy="30" r="10" fill="#FFFFFF"/&gt;<br> &lt;circle cx="70" cy="30" r="10" fill="#FFFFFF"/&gt;<br> &lt;circle cx="30" cy="30" r="5" fill="#000000"/&gt;<br> &lt;circle cx="70" cy="30"
+            r="5" fill="#000000"/&gt;<br> &lt;path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" /&gt;<br> &lt;/svg&gt;
+            <br> &lt;form&gt;
+
+            <br> &lt;input name="name" placeholder="Name" type="text" required /&gt;&lt;br/&gt;<br> &lt;input name="email" placeholder="Email" type="email" required /&gt;&lt;br/&gt;<br> &lt;textarea name="message" placeholder="Message" required &gt;&lt;/textarea&gt;<br>            &lt;input type="submit" value="SEND" class="submit" /&gt;<br> &lt;/form&gt;
+            <br> &lt;/div&gt;
+            <br> &lt;!-- Form section end --&gt;<br> &lt;!-- Contacts section start --&gt;<br> &lt;div class="section" id="contacts"&gt;<br> &lt;h1&gt;&lt;span&gt;Follow Me&lt;/span&gt;&lt;/h1&gt;<br> &lt;div&gt;
+            <br> &lt;a href="https://www.sololearn.com/" target="_blank"&gt;<br> &lt;img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" /&gt;<br> &lt;/a&gt;
+            <br> &lt;a href="#"&gt;<br> &lt;img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/&gt;<br> &lt;/a&gt;
+            <br> &lt;a href="#"&gt;<br> &lt;img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" /&gt;<br> &lt;/a&gt;
+            <br> &lt;/div&gt;
+            <br> &lt;/div&gt;
+            <br> &lt;!-- Contacts section end --&gt;<br> &lt;div class="copyright"&gt;<br> &copy; 2017 My Blog. All rights reserved.<br> &lt;/div&gt;
+            <br> &lt;/body&gt;
+
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>TAREA</b>:
+            <ol>
+                <li>Finaliza tu página de blog.</li>
+                <li> Comparte tu código creado con la comunidad, recibe feedback, y ¡recibe votos positivos!</li>
+            </ol>
+        </p>
+
+        <h2 id="indice3">HTML5</h2>
+
+        <h3 id="subindice23">Introducción a HTML5</h3>
+
+        <h4>HTML5</h4>
+
+        <p>Cuando se están escribiendo documentos HTML5, una de las primeras nuevas características nuevas que usted notará es la declaración del DOC TYPE:</p>
+        <p>&lt;!DOCTYPE HTML&gt;</p>
+        <p>La codificación de caracteres (charset) también ha sido simplificada:</p>
+        <p>&lt;meta charset="UTF-8"&gt;</p>
+        <p><b>Nuevos elementos en HTML5</b></p>
+        <p>&lt;article&gt;, &lt;aside&gt;, &lt;audio&gt;, &lt;canvas&gt;, &lt;datalist&gt;, &lt;details&gt;, &lt;embed&gt;, &lt;footer&gt;, &lt;header&gt;, &lt;nav&gt;, &lt;output&gt;, &lt;progress&gt;, &lt;section&gt;, &lt;video&gt;, ¡y más!</p>
+        <p>La codificación de caracteres por defecto en HTML5 es UTF-8.</p>
+
+        <h4>Novedades en HTML5</h4>
+
+        <p><b>Formularios</b><br> - La especificación de Formularios Web 2.0 permite la creación de formularios más potentes y con experiencias de usuario más enriquecidas.<br> - Selectores de fecha, selectores de color y controles de paso numéricos han
+            sido agregados.<br> - Los tipos de campo de entrada ahora incluyen email, búsqueda y URL.<br> - Los métodos de formulario PUT y DELETE son ahora soportados.<br>
+            <br>
+            <b>API Integrada</b> (Interfaces de Programación de Aplicaciones) <br> - Arrastrar y soltar<br> - Audio y Video<br> - Aplicaciones Web sin conexión <br> - Historial<br> - Almacenamiento Local<br> - Geolocalización<br> - Mensajería Web</p>
+        <p>Aprenderemos más sobre estas nuevas funciones en las próximas lecciones.</p>
+
+        <h3 id="subindice24">Modelos de Contenido</h3>
+
+        <h4>La Lista de Modelos de Contenido</h4>
+
+        <p>En HTML, los elementos pertenecían típicamente al modelo de contenido de bloque o contenido en línea. HTML5 introduce <b>siete</b> modelos de contenido principales.<br>
+            <br> - Metadata<br> - Embedded (Incrustado)<br> - Interactive (Interactivo)<br> - Heading (Encabezado)<br> - Phrasing (Expresión)<br> - Flow (Flujo)<br> - Sectioning (Seccionamiento)</p>
+        <p>Los modelos de contenido HTML5 son diseñados para hacer la estructura de marcado más útil para el explorador y el diseñador web.</p>
+
+        <h4>Modelos de Contenido</h4>
+
+        <p><b>Metadata</b>: Contenido que define la presentación o comportamiento del resto del contenido. Estos elementos son encontrados en el head (la cabecera) del documento.<br> Elementos: &lt;base&gt;, &lt;link&gt;, &lt;meta&gt;, &lt;noscript&gt;,
+            &lt;script&gt;, &lt;style&gt;, &lt;title&gt;<br>
+            <br>
+            <b>Incrustado</b>: Contenido que importa otros recursos al documento.<br> Elementos: &lt;audio&gt;, &lt;video&gt;, &lt;canvas&gt;, &lt;iframe&gt;, &lt;img&gt;, &lt;math&gt;, &lt;object&gt;, &lt;svg&gt;<br>
+            <br>
+            <b>Interactivo</b>: Contenido específicamente destinado para interacción del usuario.<br> Elementos: &lt;a&gt;, &lt;audio&gt;, &lt;video&gt;, &lt;button&gt;, &lt;details&gt;, &lt;embed&gt;, &lt;iframe&gt;, &lt;img&gt;, &lt;input&gt;, &lt;label&gt;,
+            &lt;object&gt;, &lt;select&gt;, &lt;textarea&gt;<br>
+            <br>
+            <b>Encabezado</b>: Define un encabezado de sección.<br> Elementos: &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;, &lt;hgroup&gt;<br>
+            <br>
+            <b>Expresión</b>: Este modelo tiene un número de elementos en línea en común con HTML4. <br> Elementos: &lt;img&gt;, &lt;span&gt;, &lt;strong&gt;, &lt;label&gt;, &lt;br /&gt;, &lt;small&gt;, &lt;sub&gt;, y más.</p>
+        <p>El mismo elemento puede pertenecer a más de un modelo de contenido.</p>
+        <p><b>Flujo de contenido</b>: Contiene la mayoría de los elementos HTML5 que serían incluidos en el flujo normal del documento.<br>
+            <br>
+            <b>Seccionamiendo de contenido</b>: Define el alcance de encabezados, contenido, navegación y pies de página.
+            <br> Elementos: &lt;article&gt;, &lt;aside&gt;, &lt;nav&gt;, &lt;section&gt;</p>
+        <img src="images/img_26.jpeg" alt="">
+        <p>Los distintos modelos de contenido se sobreponen en ciertas áreas, dependiendo de cómo están siendo usados.</p>
+
+        <h3 id="subindice25">Estructura de página HTML5</h3>
+
+        <h4>Estructura de página en HTML5</h4>
+
+        <p>Una estructura de página genérica HTML5 se ve así:</p>
+        <img src="images/img_27.png" alt="">
+        <p>Puede ser que no necesites algunos de estos elementos, dependiendo de la estructura de su página.</p>
+
+        <h3 id="subindice26">header, nav & footer</h3>
+
+        <h4>El elemento &lt;header&gt; </h4>
+
+        <p>En HTML4, definiríamos un encabezado así:</p>
+        <p>&lt;div id="header"&gt;</p>
+        <p>En HTML5, una simple etiqueta &lt;header&gt; es usada.<br>
+            <br> El elemento &lt;header&gt; es apropiado para ser usado dentro de la etiqueta body.</p>
+        <p>&lt;!DOCTYPE html&gt;<br> &lt;html&gt;
+            <br> &lt;head&gt;&lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;header&gt;
+            <br> &lt;h1&gt;Encabezado más importante&lt;/h1&gt; <br> &lt;h3&gt;Encabezado menos importante&lt;/h3&gt;<br> &lt;/header&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <img src="images/img_28.png" alt="">
+        <p>Note que la etiqueta &lt;header&gt; es completamente diferente de la etiqueta &lt;head&gt;.</p>
+
+        <h4>El elemento &lt;footer&gt; </h4>
+
+        <p>El elemento footer también es utilizado ampliamente. Generalmente, al hablar del footer nos referimos a una sección localizada en la parte inferior de la página web.</p>
+        <p>&lt;footer&gt;…&lt;/footer&gt;</p>
+        <p>La siguiente información se provee usualmente dentro de estas etiquetas:<br> - Información de Contacto<br> - Política de Privacidad<br> - Íconos de redes sociales<br> - Términos de Servicio<br> - Información de Derechos de autor<br> - Mapa del
+            sitio y documentos relacionados</p>
+
+        <h4>El elemento &lt;nav&gt; </h4>
+
+        <p>Esta etiqueta representa una sección de una página que conecta a otras páginas o ciertas secciones dentro de la página. Esto sería una sección con hipervínculos de navegación.<br>
+            <br> Acá hay un ejemplo de un bloque grande de hipervínculos de navegación:</p>
+        <p>&lt;nav&gt;<br> &lt;ul&gt;
+            <br> &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;<br> &lt;li&gt;&lt;a href="#"&gt;Servicios&lt;/a&gt;&lt;/li&gt;<br> &lt;li&gt;&lt;a href="#"&gt;Sobre nosotros&lt;/a&gt;&lt;/li&gt;<br> &lt;/ul&gt;
+            <br> &lt;/nav&gt;
+        </p>
+        <img src="images/img_29.png" alt="">
+        <p>No todos los hipervínculos en un documento deberían estar dentro de un elemento &lt;nav&gt;. El elemento &lt;nav&gt; está hecho sólo para bloques grandes de hipervínculos de navegación. Típicamente, el elemento &lt;footer&gt; tiene una lista de
+            hipervínculos que no necesitan estar en un elemento &lt;nav&gt;.</p>
+
+        <h3 id="subindice27">article, section & aside</h3>
+
+        <h4>El elemento &lt;article&gt; </h4>
+
+        <p>El elemento <b>article</b> es una pieza autónoma, de contenido independiente que puede ser usada y distribuida separadamente del resto de la página o sitio. Esto podría ser un post de un foro, una revista o un artículo de revista, una entrada
+            de blog, un comentario, un widget interactivo o gadget, o cualquier otra pieza de contenido independiente.<br>
+            <br> El elemento &lt;article&gt; remplaza al elemento &lt;div&gt; que fue ampliamente usado en HTML4, junto con un id o una clase.</p>
+        <p>&lt;article&gt;<br> &lt;h1&gt;El título del Artículo&lt;/h1&gt; <br> &lt;p&gt;Contenidos del elemento artículo&lt;/p&gt;<br> &lt;/article&gt;
+        </p>
+        <p>Cuando un elemento &lt;article&gt; es anidado, el elemento interior representa un artículo relacionado al elemento exterior. Por ejemplo, comentarios de un post en un blog pueden ser elementos &lt;article&gt; anidados en el &lt;article&gt; representando
+            el post del blog.</p>
+
+        <h4>El elemento &lt;section&gt;</h4>
+
+        <p><b>&lt;section&gt;</b> es un contenedor lógico de la página web o artículo. Las secciones pueden ser usadas para dividir contenido dentro de un artículo. Por ejemplo, una página principal podría tener una sección para introducir a la compañía,
+            otra para ítems de noticias, y también otra para la información de contacto.
+            <br> Cada <b>&lt;section&gt;</b> debería ser identificada, típicamente incluyendo un encabezado (elemento h1-h6) como un hijo del elemento &lt;section&gt;.</p>
+        <p>&lt;article&gt;<br> &lt;h1&gt;Bienvenido&lt;/h1&gt;
+            <br> &lt;section&gt;
+            <br> &lt;h1&gt;Encabezado&lt;/h1&gt;
+            <br> &lt;p&gt;contenido o imagen&lt;/p&gt;<br> &lt;/section&gt;
+            <br> &lt;/article&gt;
+        </p>
+        <p>Si tiene sentido ubicar separadamente el contenido de un elemento &lt;section&gt;, use mejor un elemento &lt;article&gt;.</p>
+
+        <h4>El elemento &lt;aside&gt;</h4>
+
+        <p>El elemento <b>&lt;aside&gt;</b> es contenido secundario o tangencial que podría ser considerado separado pero indirectamente relacionado al contenido principal.<br> Este tipo de contenido es a veces representado en barras laterales. Cuando una
+            etiqueta &lt;aside&gt; es usada dentro de una etiqueta &lt;article&gt;, el contenido de &lt;aside&gt; debería estar específicamente relacionado a ese artículo.</p>
+        <p>&lt;article&gt;<br> &lt;h1&gt; Regalos para todos&lt;/h1&gt;<br> &lt;p&gt;Este sitio web será el mejor lugar para escoger regalos &lt;/p&gt;<br> &lt;aside&gt;
+            <br> &lt;p&gt; Los regalos serán entregados a usted dentro de las siguientes 24 horas &lt;/p&gt;<br> &lt;/aside&gt;
+            <br> &lt;/article&gt;
+        </p>
+        <p>Cuando una etiqueta &lt;aside&gt; es usada fuera de una etiqueta &lt;article&gt; su contenido debería estar relacionado al contenido que está a su alrededor.</p>
+
+        <h3 id="subindice28">El elemento audio</h3>
+
+        <h4>Audio en la Web</h4>
+
+        <p>Antes de HTML5, no había un estándar para reproducir archivos de audio en una página web. El elemento HTML5 &lt;audio&gt; especifica un estándar para instructar audio en una página web.<br>
+            <br> Hay dos maneras diferentes de especificar la url de origen del audio. El primero usa el atributo source:</p>
+        <p>&lt;audio src="http://www.sololearn.com/uploads/audio.mp3" controls&gt;<br> Elemento de audio no soportado por su explorador<br> &lt;/audio&gt;
+        </p>
+        <p>La segunda forma usa el elemento &lt;source&gt; dentro del elemento &lt;audio&gt;:</p>
+        <p>&lt;audio controls&gt;<br> &lt;source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg"&gt;<br> &lt;source src="http://www.sololearn.com/uploads/audio.ogg" type="audio/ogg"&gt;<br> &lt;/audio&gt;
+        </p>
+        <p>Múltiples elementos &lt;source&gt; pueden ser enlazados a diferentes archivos de audio. El explorador usará el primer formato reconocido.</p>
+        <p>El elemento &lt;audio&gt; crea un reproductor de audio dentro del explorador.</p>
+        <p>&lt;audio controls&gt;<br> &lt;source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg"&gt;<br> &lt;source src="http://www.sololearn.com/uploads/audio.ogg" type="audio/ogg"&gt;<br> Elemento de Audio no soportado por su explorador.<br>            &lt;/audio&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_30.jpeg" alt="">
+        <p>El texto en medio de las etiquetas &lt;audio&gt; y &lt;/audio&gt; se mostrará en los exploradores que no soporten el elemento &lt;audio&gt;.</p>
+
+        <h4>Atributos de &lt;audio&gt;</h4>
+
+        <p><b>controls</b><br> Especifica qué controles de audio deberían ser desplegados (como el botón de play/pause etc.)<br>
+            <br>
+            <b>autoplay</b><br> Cuando este atributo es definido, el audio empieza a reproducirse tan pronto está listo, sin preguntar por el permiso del visitante.</p>
+        <p>&lt;audio controls autoplay&gt;<br> &lt;source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg"&gt;<br> Elemento de audio no soportado por su explorador<br> &lt;/audio&gt;
+        </p>
+        <p><b>loop</b><br> Este atributo es usado para que el audio se vuelva a reproducir cada vez que finaliza.</p>
+        <p>&lt;audio controls autoplay loop&gt;<br> &lt;source src="http://www.sololearn.com/uploads/audio.mp3" type="audio/mpeg"&gt;<br> Elemento de audio no soportado por su explorador<br> &lt;/audio&gt;
+        </p>
+        <p>Actualmente, hay tres formatos de archivo soportados para el elemento &lt;audio&gt;: MP3, WAV y OGG.</p>
+
+        <h3 id="subindice29">El elemento video</h3>
+
+        <h4>Videos en HTML</h4>
+
+        <p>El elemento video es similar al elemento audio. Se puede especificar la URL de origen del video usando un atributo en un elemento de video, o usando elementos source dentro del elemento video:</p>
+
+        <p>&lt;video controls&gt;<br> &lt;source src="http://www.sololearn.com/uploads/video.mp4" type="video/mp4"&gt;<br> &lt;source src="http://www.sololearn.com/uploads/video.ogg" type="video/ogg"&gt;<br> Elemento de video no es soportado en su explorador<br>            &lt;/video&gt;
+        </p>
+        <p>Otro aspecto que los elementos de audio y video tienen en común es que los exploradores más importantes no soportan los mismos tipos de archivo. Si el explorador no soporta el primer tipo de video, intentará el siguiente.</p>
+
+        <h4>Atributos de &lt;video&gt;</h4>
+
+        <p>Otro aspecto compartido por los elementos audio y video es que cada uno tiene atributos controls, autoplay y loop. <br>
+            <br> En este ejemplo, el video volverá a empezar después de que termine de reproducirse:</p>
+        <p>&lt;video controls autoplay loop&gt;<br> &lt;source src="http://www.sololearn.com/uploads/video.mp4" type="video/mp4"&gt;<br> &lt;source src="http://www.sololearn.com/uploads/video.ogg" type="video/ogg"&gt;<br> Elemento de video no es soportado
+            en su explorador<br> &lt;/video&gt;
+        </p>
+        <p>Actualmente, hay tres formatos de video soportados para el elemento &lt;video&gt;: MP4, WebM, y OGG</p>
+
+        <h3 id="subindice30">El elemento progress</h3>
+
+        <h4>Barra de progreso</h4>
+
+        <p>El elemento <b>&lt;progress&gt;</b>(progreso) provee la habilidad de crear barras de progreso en la web. <br> Este elemento progreso puede ser usado con encabezados, párrafos, o en cualquier otra parte del body.<br>
+            <br>
+            <b>Atributos del Elemento de Progreso</b><br>
+            <b>Value</b>: Especifica cuánto de la tarea ha sido completado.<br>
+            <b>Max</b>: Especifica cuánto trabajo la tarea requiere en total.</p>
+        <p><b>Ejemplo:</b></p>
+        <p>Status: &lt;progress min="0" max="100" value="35"&gt; &lt;/progress&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_31.jpeg" alt="">
+        <p>Usa la etiqueta &lt;progress&gt; en conjunto con JavaScript para mostrar dinámicamente el progreso de una tarea.</p>
+
+        <h3 id="subindice31">API de Almacenamiento Web</h3>
+
+        <h4>Almacenamiento WEB HTML5</h4>
+
+        <p>Con almacenamiento web HTML5, los sitios web pueden guardar datos en el computador local de los usuarios. Antes de HTML5, teníamos que usar Cookies de JavaScript para alcanzar esta funcionalidad.<br>
+            <br> Las ventajas del Almacenamiento Web<br> - Más seguro<br> - Más rápido<br> - Guarda una cantidad más grande de datos.<br> - Los datos guardados no son enviados con cada petición del servidor</p>
+        <p>El almacenamiento local es por dominio. Todas las páginas desde un dominio pueden guardar y acceder a los mismos datos.</p>
+
+        <h4>Tipos de objetos de Almacenamiento Web</h4>
+
+        <p>Hay dos tipos de objetos de almacenamiento web:<br>
+            <b>- sessionStorage()</b><br>
+            <b>- localStorage()</b><br>
+            <br>
+            <b>Local vs. Session</b><br> - El almacenamiento por sesión es destruido una vez el usuario cierra el explorador.<br> - El almacenamiento local guarda datos sin fecha de expiración.</p>
+        <p>Necesita estar familiarizado con JavaScript básico para entender y usar la API.</p>
+
+        <h4>Usando Valores</h4>
+
+        <p>La sintaxis para el almacenamiento web en modo local y en modo sesión es muy sencilla y similar. Los datos son guardados como parejas de clave/valor.</p>
+        <p><b>Guardando un valor:</b></p>
+        <p>localStorage.setItem("clave1", "valor1");</p>
+        <p><b>Obteniendo un valor:</b></p>
+        <p>//esto imprimirá el valor<br> alert(localStorage.getItem("clave1"));
+        </p>
+        <p><b>Removiendo un valor:</b></p>
+        <p>localStorage.removeItem("clave1");</p>
+        <p><b>Removiendo todos los valores:</b></p>
+        <p>localStorage.clear();</p>
+        <p>La misma del almacenamiento por sesión es casi igual, con una diferencia: En vez de localStorage se usa sessionStorage.</p>
+
+        <h3 id="subindice32">API de GeoLocalización</h3>
+
+        <h4>¿Qué es la API de GeoLocalización?</h4>
+
+        <p>En HTML5, la API de GeoLocalización es usada para obtener la localización geográfica del usuario.<br>
+            <br> Ya que esto puede comprometer la privacidad del usuario, la opción no está disponible a menos que el usuario la apruebe.</p>
+        <p>La geolocalización es mucho más precisa para dispositivos con GPS, como teléfonos inteligentes y demás.</p>
+
+        <h4>Usando Geolocalización HTML</h4>
+
+        <p>El método principal de la API de Geolocalización es getCurrentPosition, que obtiene la localización geográfica actual del dispositivo del usuario.</p>
+        <p>navigator.geolocation.getCurrentPosition();</p>
+        <p>Parámetros:<br>
+            <b>showLocation (obligatorio)</b>: Define el método callback que obtiene la información de localización.<br>
+            <b>ErrorHandler (opcional)</b>: Define el método callback que es invocado cuando un error ocurre procesando la llamada asincrónica.<br>
+            <b>Options (opcional)</b>: Define un conjunto de opciones para obtiene la información de localización.</p>
+        <p>Es necesario estar familiarizado con JavaScript básico para entender y usar la API.</p>
+
+        <h4>Presentando los Datos</h4>
+
+        <p>La localización del usuario puede ser presentada de dos formas: <b>Geodetic</b> y <b>Civic</b>.<br>
+            <br> 1. La forma geodetic para describir posición se refiere directamente a latitud y longitud.<br> 2. La representación civic de los datos de localización es presentada en un formato que es leído más fácilmente y entendido por la persona
+            promedio.
+            <br>
+            <br> Cada parámetro tiene una representación tanto geodetic como civic.</p>
+        <table border="2">
+            <tr>
+                <th>ATRIBUTO</th>
+                <th>GEODÉSICO</th>
+                <th>CÍVICO</th>
+            </tr>
+            <tr>
+                <td>Posición</td>
+                <td>59.3, 18.6</td>
+                <td>Estocolmo</td>
+            </tr>
+            <tr>
+                <td>Elevación</td>
+                <td>10 metros</td>
+                <td>4<sup>to</sup> piso</td>
+            </tr>
+            <tr>
+                <td>Dirección</td>
+                <td>234 grados</td>
+                <td>Centro de la Ciudad</td>
+            </tr>
+            <tr>
+                <td>Velocidad</td>
+                <td>5km/h</td>
+                <td>Caminando</td>
+            </tr>
+            <tr>
+                <td>Orientación</td>
+                <td>45 grados</td>
+                <td>Noreste</td>
+            </tr>
+        </table>
+        <p>El método getCurrentPosition() devuelve un objeto si su respuesta es exitosa. Las propiedades de latitud, longitud y exactitud son siempre retornadas.</p>
+
+        <h3 id="subindice33">API de drag&drop</h3>
+
+        <h4>Haciendo los objetos arrastrables</h4>
+
+        <p>La característica de arrastrar y soltar le permite "agarrar" un objeto y arrastrarlo a un lugar diferente.<br> Para hacer un elemento arrastrable, sólo establece el atributo <b>draggable</b> a verdadero:</p>
+        <p><img draggable="true" /></p>
+        <p>Cualquier elemento HTML puede ser arrastrable.</p>
+        <p>La API para arrastrar y soltar en HTML está basada en eventos.</p>
+        <p><b>Ejemplo:</b></p>
+        <p>&lt;!DOCTYPE HTML&gt;<br> &lt;html&gt;
+            <br> &lt;head&gt;
+            <br> &lt;script&gt;
+            <br> function allowDrop(ev) {<br> ev.preventDefault();
+            <br> }
+            <br>
+            <br> function drag(ev) {<br> ev.dataTransfer.setData("text", ev.target.id);<br> }
+            <br>
+            <br> function drop(ev) {<br> ev.preventDefault();
+            <br> var data = ev.dataTransfer.getData("text");<br> ev.target.appendChild(document.getElementById(data));
+            <br> }
+            <br> &lt;/script&gt;
+            <br> &lt;/head&gt;
+            <br> &lt;body&gt;
+            <br>
+            <br> &lt;div id="box" ondrop="drop(event)"<br> ondragover="allowDrop(event)"
+            <br> style="border:1px solid black;<br> width:200px; height:200px"&gt;&lt;/div&gt;<br>
+            <br> &lt;img id="image" src="sample.jpg" draggable="true"<br> ondragstart="drag(event)" width="150" height="50" alt="" /&gt;<br>
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Qué Arrastrar</b><br> Cuando el elemento es arrastrado, el atributo <b>ondragstart</b> llama a una función, drag(event), que especifica qué información será arrastrada.<br> El método <b>dataTransfer.setData()</b> establece el tipo de datos
+            y el valor de los datos arrastrados.</p>
+        <p>function drag(ev) {<br> ev.dataTransfer.setData("text", ev.target.id);<br> }
+        </p>
+        <p>En nuestro ejemplo, el tipo de datos es "texto" y el valor es el ID del elemento arrastrable ("image").<br>
+            <br>
+            <b>Dónde Soltar</b><br> El evento ondragover especifica dónde los datos arrastrados pueden ser soltados. Por defecto, los datos y elementos no pueden ser soltados en otros elementos. Para permitir soltar datos, debemos prevenir el manejo por
+            defecto del evento.<br> Esto se hace llamando al método <b>event.preventDefault()</b> para el evento event.<br>
+            <br>
+            <b>Al Soltar</b><br> Cuando los datos arrastrados se sueltan, ocurre un evento drop.</p>
+        <p>function drop(ev) {<br> ev.preventDefault();
+            <br> var data = ev.dataTransfer.getData("text");<br> ev.target.appendChild(document.getElementById(data));
+            <br> }
+        </p>
+        <p>El método <b>preventDefault()</b> previene al explorador de manejar los datos con su opción por defecto (por defecto se abre como un evento link on drop)<br> Los datos arrastrados pueden ser accedidos con el método <b>dataTransfer.getData()</b>.
+            Este método retornará cualquier dato que fue configurado del mismo tipo en el método setData(). Los datos arrastrados son el ID del elemento arrastrado ("image").<br>
+            <br> Al final, el elemento arrastrado es anexado en el elemento soltado, usando la función appendChild().</p>
+        <p>Se requiere un conocimiento básico de JavaScript para entender y usar la API.</p>
+
+        <h3 id="subindice34">SVG</h3>
+
+        <h4>Dibujando Formas</h4>
+
+        <p>SVG significa Gráficos Vectoriales Escalables (<b>S</b>calable <b>V</b>ector <b>G</b>raphics), y es usado para dibujar formas con estilo de marcado HTML.<br>
+            <br> SVG ofrece varios métodos para dibujar trazos, rectángulos, círculos, texto e imágenes.</p>
+        <p>SVG no está basado en píxeles, por lo que puede ser magnificado infinitamente sin pérdida de calidad.</p>
+
+        <h4>Insertando Imágenes SVG</h4>
+
+        <p>Una imagen SVG puede ser agregada al código HTML con sólo una etiqueta básica de imagen que incluye un atributo source apuntando a la imagen:</p>
+        <p>&lt;img src="image.svg" alt="" height="300" /&gt;</p>
+        <p>SVG define imágenes basadas en vectores en formato XML.</p>
+
+        <h4>Dibujando un círculo</h4>
+
+        <p>Para dibujar formas con SVG, usted primero necesita crear una etiqueta de elemento <b>SVG</b> con dos atributos: ancho y alto.</p>
+        <p>&lt;svg width="1000" height="1000"&gt;&lt;/svg&gt;</p>
+        <p>Para crear un círculo, agregamos una etiqueta &lt;circle&gt;:</p>
+        <p>&lt;svg width="2000" height="2000"&gt;<br> &lt;circle cx="80" cy="80" r="50" fill="green" /&gt;<br> &lt;/svg&gt;
+        </p>
+        <p>- <b>cx</b> mueve el centro del círculo más a la derecha de la pantalla<br> - <b>cy</b> mueve el centro del círculo más abajo respecto a la parte superior de la pantalla<br> - <b>r</b> define el radio<br> - <b>fill</b> determina el color de nuestro
+            círculo
+            <br> - <b>stroke</b> agrega un marco al círculo</p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_32.jpg" alt="">
+        <p>Todos los elementos y atributos de los archivos SVG pueden ser animados.</p>
+
+        <h4>Otros Elementos de formas</h4>
+
+        <p><b>&lt;rect&gt;</b> define un rectángulo:</p>
+        <p>&lt;svg width="2000" height="2000"&gt;<br> &lt;rect width="300" height="100" x="20" y="20" fill="green" /&gt;<br> &lt;/svg&gt;
+        </p>
+        <p>El siguiente código dibujará un rectángulo con un relleno verde.</p>
+        <img src="images/img_33.jpeg" alt="">
+        <p><b>&lt;line&gt;</b> define un segmento de línea:</p>
+        <p>&lt;svg width="400" height="410"&gt;<br> &lt;line x1="10" y1="10" x2="200" y2="100" style="stroke:#000000; stroke-linecap:round; stroke-width:20" /&gt;<br> &lt;/svg&gt;
+        </p>
+        <p>(x1, y1) define las coordenadas de inicio(x2, y2) define las coordenadas finales.</p>
+        <img src="images/img_34.jpeg" alt="">
+        <p><b>&lt;polyline&gt;</b> define formas construídas de múltiples definiciones de líneas:</p>
+        <p>&lt;svg width="2000" height="500"&gt;<br> &lt;polyline style="stroke-linejoin:miter; stroke:black; stroke-width:12; fill: none;" points="100 100, 150 150, 200 100" /&gt;<br> &lt;/svg&gt;
+        </p>
+        <p>Los puntos son las coordenadas de las polilíneas.<br> El código de abajo dibujará una marca de verificación negra:</p>
+        <img src="images/img_35.jpeg" alt="">
+        <p>Los atributos width y height del elemento &lt;rect&gt; definen la altura y la anchura del rectángulo.</p>
+
+        <h4>&lt;ellipse&gt; y &lt;polygon&gt;</h4>
+
+        <p><b>Elipse</b><br> El elemento <b>&lt;ellipse&gt;</b> es similar al elemento <b>&lt;circle&gt;</b>, con una excepción:<br> Puedes modificar independientemente los ejes horizontales y verticales de su radio, usando los atributos <b>rx</b> y <b>ry</b>.</p>
+        <p>&lt;svg height="500" width="1000"&gt;<br> &lt;ellipse cx="200" cy="100" rx="150" ry="70" style="fill:green" /&gt;<br> &lt;/svg&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_36.jpeg" alt="">
+        <p><b>Polígono</b><br> El elemento <b>&lt;polygon&gt;</b> es usado para crear un gráfico con al menos tres lados. El elemento polígono es único porque cierra la forma automáticamente por usted.</p>
+        <p>&lt;svg width="2000" height="2000"&gt;<br> &lt;polygon points="100 100, 200 200, 300 0" style="fill: green; stroke:black;" /&gt;<br> &lt;/svg&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_37.jpeg" alt="">
+        <p>Polygon viene del griego. "Poly" significa "muchos" y "gon" significa "ángulo".</p>
+
+        <h3 id="subindice35">Animaciones y Trazados SVG</h3>
+
+        <h4>Animaciones de Forma</h4>
+
+        <p>Las animaciones SVG pueden ser creadas usando el elemento <b>&lt;animate&gt;</b>.<br>
+            <br> El siguiente ejemplo crea un rectángulo que cambiará su posición en 3 segundos y luego repetirá la animación dos veces:</p>
+        <p>&lt;svg width="1000" height="250"&gt;<br> &lt;rect width="150" height="150" fill="orange"&gt;<br> &lt;animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repeatCount="2"/&gt;<br> &lt;/rect&gt;
+            <br> &lt;/svg&gt;
+        </p>
+        <p><b>attributeName</b>: Especifica cuál atributo será afectado por la animación<br>
+            <b>from</b>: Especifica el valor de comienzo del atributo
+            <b>to</b>: Especifica el valor final del atributo<br>
+            <b>dur</b>: Especifica cuánto tiempo corre la animación (duración)<br>
+            <b>fill</b>: Especifica si el valor del atributo debe o no devolverse a su valor inicial cando la animación finaliza (Valores: "remove" resetea el valor; "freeze" conserva el “to value”)<br>
+            <b>repeatCount</b>: Especifica el conteo de repetición de la animación<br>
+            <br> En el ejemplo anterior, el rectángulo cambia su atributo x de 0 a 300 en 3 segundos.</p>
+        <p>Para repetir la animación indefinidamente, utiliza el valor "<b>undefined</b>" para el atributo repeatCount.</p>
+
+        <h4>Trazos</h4>
+
+        <p>El elemento &lt;path&gt; es usado para definir un Trazo.<br>
+            <br> Los siguientes comandos están disponibles para datos de Trazo:<br>
+            <b>M</b>: mover hacia<br>
+            <b>L</b>: línea hacia<br>
+            <b>H</b>: línea horizontal hacia<br>
+            <b>V</b>: línea vertical hacia<br>
+            <b>C</b>: curva hacia<br>
+            <b>S</b>: curva suave hacia<br>
+            <b>Q</b>: curva Bézier cuadrática<br>
+            <b>T</b>: curva Bézier cuadrática suave<br>
+            <b>A</b>: Arco elíptico<br>
+            <b>Z</b>: closepath, cerrar trazado.</p>
+        <p>Defina un trazo usando el atributo <b>d</b>:</p>
+        <p>&lt;svg width="500" height="500"&gt;<br> &lt;path d="M 0 0 L200 200 L200 0 Z" style="stroke:#000; fill:none;" /&gt;<br> &lt;/svg&gt;
+        </p>
+        <p>M coloca nuestro "lápiz virtual" abajo en la posición 0,0. Luego se mueve 200px hacia abajo y a la derecha, luego se mueve hacia arriba a la posición 200,0. El comando Z cierra la forma, lo que resulta en una hipotenusa:</p>
+        <img src="images/img_38.jpeg" alt="">
+        <p>Todos los comandos presentados arriba pueden también ser expresados con letras minúsculas. Cuando se usan letras mayúsculas, se indica una posición absoluta; minúsculas indican una posición relativa.</p>
+
+        <h3 id="subindice36">Canvas</h3>
+
+        <h4>El elemento &lt;canvas&gt;</h4>
+
+        <p>El canvas HTML es usado para dibujar gráficos que incluyen desde líneas simples a objetos gráficos complejos.</p>
+        <p><b>El elemento &lt;Canvas&gt; es definido por:</b></p>
+        <p>&lt;canvas id="canvas1" width="200" height="100" &gt;&lt;/canvas &gt;</p>
+        <p>El elemento &lt;canvas&gt; es sólo un contenedor para gráficos. Se debe usar un script para dibujar realmente los gráficos (usualmente JavaScript).</p>
+        <p>El elemento &lt;canvas&gt; debe tener un <b>atributo id</b> para que pueda ser referido por JavaScript:</p>
+        <p>&lt;html &gt;<br> &lt;head &gt;<br> &lt;script &gt;<br> var can = document.getElementById("canvas1");<br> var ctx = can.getContext("2d");<br> &lt;/script &gt;<br> &lt;/head &gt;<br> &lt;body &gt;<br> &lt;canvas id="canvas1" width="400" height="300"
+            &gt;&lt;/canvas &gt;<br> &lt;/body &gt;<br> &lt;/html &gt;</p>
+        <p><b>getContext()</b> retorna un contexto de dibujo sobre el Canvas.</p>
+        <p>Conocimiento básico de JavaScript es requerido para entender y usar el Canvas.</p>
+
+        <h4>Coordenadas del Canvas</h4>
+
+        <p>El Canvas HTML es una grilla bi-dimensional.<br> La esquina superior izquierda del Canvas tiene las coordenadas (0,0).<br>
+            <br> La coordenada X aumenta hacia la derecha.<br> La coordenada Y aumenta hacia la parte inferior del Canvas.</p>
+        <img src="images/img_39.jpeg" alt="">
+        <p>El elemento &lt;canvas&gt; es sólo un contenedor para gráficos.</p>
+
+        <h4>Dibujando Formas</h4>
+
+        <p>El método <b>fillRect(x, y, w, h)</b> dibuja un rectángulo "relleno", en el cual w indica el ancho y h indica altura. El color de relleno por defecto es negro.<br>
+            <br> Un rectángulo de 100*100 pixeles es dibujado en el Canvas en la posición (20, 20):</p>
+        <p> &lt;html &gt;<br> &lt;head &gt; &lt;/head &gt;<br> &lt;body &gt;<br> &lt;canvas id="canvas1" width="400" height="300" &gt;<br> &lt;/canvas &gt;<br> &lt;script &gt;<br> var c=document.getElementById("canvas1");<br> var ctx=c.getContext("2d");<br>            ctx.fillRect(20,20,100,100);
+            <br> &lt;/script &gt;<br> &lt;/body &gt;<br> &lt;/html &gt;</p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_40.jpeg" alt="">
+        <p>La propiedad <b>fillStyle</b> es usada para establecer un color, gradiente, o patrón para llenar el dibujo.<br> Usar esta propiedad le permite dibujar un rectángulo con relleno verde.</p>
+        <p> &lt;html &gt;<br> &lt;head &gt; &lt;/head &gt;<br> &lt;body &gt;<br> &lt;canvas id="canvas1" width="400" height="300" &gt;<br> &lt;/canvas &gt;<br> &lt;script &gt;<br> var canvas=document.getElementById("canvas1");<br> var ctx=canvas.getContext("2d");<br>            ctx.fillStyle ="rgba(0, 200, 0, 1)";<br> ctx.fillRect (36, 10, 22, 22);<br> &lt;/script &gt;<br> &lt;/body &gt;<br> &lt;/html &gt;</p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_41.jpeg" alt="">
+        <p>El Canvas soporta varios métodos varios para dibujar:<br>
+            <br>
+            <b>Dibujar una línea</b><br> moveTo(x,y): Define el punto de inicio de la línea.<br> lineTo(x,y): Define el punto final de la línea.<br>
+            <br>
+            <b>Dibujar un círculo</b><br> beginPath(): Inicia el dibujo.<br> arc(x,y,r,start,stop): Establece el parámetro del círculo.<br> stroke(): Finaliza el dibujo.<br>
+            <br>
+            <b>Gradientes</b><br> createLinearGradient(x,y,x1,y1): Crea un gradiente lineal.<br> createRadialGradient(x,y,r,x1,y1,r1): Crea un gradiente radial/circular.<br>
+            <br>
+            <b>Dibujando texto sobre el Canvas</b><br> Font: Define las propiedades de la fuente para el texto.<br> fillText(text,x,y): Dibuja texto "relleno" sobre el Canvas.<br> strokeText(text,x,y): Dibuja texto sobre el Canvas (sin relleno).</p>
+        <p>Hay muchos otros más enfocados a ayudar a dibujar formas e imágenes sobre el Canvas.</p>
+
+        <h3 id="subindice37">SVG vs. Canvas</h3>
+
+        <h4>Canvas vs. SVG</h4>
+
+        <p><b>Canvas</b><br> - Los elementos se dibujan programáticamente<br> - Los dibujos se realizan con píxeles<br> - Las animaciones no están incorporadas<br> - Alto rendimiento para operaciones de dibujo basadas en píxeles<br> - Dependiente de la Resolución<br>            - No hay soporte para controladores de eventos<br> - Puede guardar la imagen resultante como .png o .jpg<br> - Muy adecuado para los juegos de gráficos intensivos<br>
+            <br>
+            <b>SVG</b><br> - Los elementos son parte del DOM de la página (Modelo de Objetos del Documento)<br> - El dibujo se hace con vectores<br> - Efectos, como animaciones son incorporadas<br> - Basado en sintaxis XML estándar, que provee mejor accesibilidad.<br>            - Independiente de la Resolución<br> - Soporte para manejadores de eventos<br> - No apto para aplicaciones de juegos<br> - Es mejor para aplicaciones con áreas grandes de renderización (por ejemplo, Google Maps)</p>
+        <p>Podemos realmente usar tanto SVG como Canvas en la misma página, de ser necesario.<br> De todas formas, usted no puede dibujar SVG en un Canvas, o viceversa.</p>
+
+        <h3 id="subindice38">Transformaciones de Canvas</h3>
+
+        <h4>Trabajando con Canvas</h4>
+
+        <p>El elemento Canvas puede ser transformado. Por ejemplo, un texto es escrito en el Canvas en las coordenadas (20, 10).</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;&lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;canvas id="canvas1" width="400" height="300"&gt;<br> &lt;/canvas&gt;
+            <br> &lt;script&gt;
+            <br> var c=document.getElementById("canvas1");<br> var ctx=c.getContext("2d");<br> ctx.font="bold 22px Tahoma";<br> ctx.textAlign="start";
+            <br> ctx.fillText("start", 10, 30);<br> &lt;/script&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_42.jpeg" alt="">
+        <p>El método translate(x,y) es usado para mover el Canvas. X indica qué tan lejos mover la grilla horizontalmente, y Y indica qué tan lejos mover la grilla verticalmente.</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;&lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;canvas id="canvas1" width="400" height="300"&gt;<br> &lt;/canvas&gt; <br> &lt;script&gt;
+            <br> var c=document.getElementById("canvas1");<br> var ctx=c.getContext("2d");<br> ctx.font="bold 22px Tahoma";<br> ctx.textAlign="start";
+            <br> ctx.fillText("start", 10, 30);<br> ctx.translate(100, 150);<br> ctx.fillText("after translate", 10, 30);<br> &lt;/script&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>En este ejemplo, el Canvas se mueve 100px hacia la derecha, y 150px hacia abajo.</p>
+        <img src="images/img_43.jpeg" alt="">
+        <p>Canvas tiene varios métodos para dibujar rutas, cajas, círculos, texto y añadir imágenes.</p>
+
+        <h4>El método rotate()</h4>
+
+        <p>El método <b>rotate()</b> es usado para rotar el Canvas en HTML5. El valor debe ser en radianes, no en grados.<br>
+            <br> Acá hay un ejemplo que dibuja el mismo rectángulo antes y después de fijar la rotación:</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;&lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;canvas id="canvas1" width="400" height="300"&gt;<br> &lt;/canvas&gt;
+            <br> &lt;script&gt;
+            <br> var c=document.getElementById("canvas1");<br> var ctx=c.getContext("2d");<br> ctx.fillStyle = "#FF0000";<br> ctx.fillRect(10,10, 100, 100);<br>
+            <br> ctx.rotate( (Math.PI / 180) * 25); //rotate 25 degrees.<br>
+            <br> ctx.fillStyle = "#0000FF";<br> ctx.fillRect(10,10, 100, 100);<br> &lt;/script&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <img src="images/img_44.jpeg" alt="">
+        <p>La rotación sólo afectará a los dibujos hechos después de que la rotación se haya realizado.</p>
+
+        <h4>El método scale()</h4>
+
+        <p>El método scale() escala el dibujo actual. Recibe dos parámetros:<br> - El número de veces en que la imagen debería ser escalada en la dirección X.<br> - El número de veces en que la imagen debería ser escalada en la dirección Y.</p>
+        <p>&lt;html&gt;<br> &lt;head&gt;&lt;/head&gt;
+            <br> &lt;body&gt;
+            <br> &lt;canvas id="canvas1" width="400" height="400"&gt;<br> &lt;/canvas&gt;
+            <br> &lt;script&gt;
+            <br> var canvas = document.getElementById('canvas1');<br> ctx =canvas.getContext('2d');<br> ctx.font="bold 22px Tahoma";<br> ctx.textAlign="start";
+            <br> ctx.fillText("start", 10, 30);<br> ctx.translate(100, 150);<br> ctx.fillText("after translate", 0, 0);<br> ctx.rotate(1);
+            <br> ctx.fillText("after rotate", 0, 0);<br> ctx.scale(1.5, 4);<br> ctx.fillText("after scale", 0,20);<br> &lt;/script&gt;
+            <br> &lt;/body&gt;
+            <br> &lt;/html&gt;
+        </p>
+        <p>Esto escalará el canvas 1.5 veces en la dirección X, y 4 veces en la dirección Y:</p>
+        <img src="images/img_45.jpeg" alt="">
+        <p>Si cambias la escala de un dibujo, todos los futuros dibujos también sufrirán este cambio.</p>
+
+        <h3 id="subindice39">Formularios HTML5, Parte 1</h3>
+
+        <h4>Formularios HTML5</h4>
+
+        <p>HTML5 trae muchas características y mejoras a la creación de formularios web. Hay nuevos atributos y tipos de entradas que fueron introducidos para ayudar a crear mejores experiencias para los usuarios web.<br>
+            <br> La creación de formularios es hecha en HTML5 de la misma manera que se hacía en HTML4:</p>
+        <p>&lt;form&gt;<br> &lt;label&gt;Su nombre:&lt;/label&gt;<br> &lt;input id="user" name="username" type="text" /&gt;<br> &lt;/form&gt;
+        </p>
+        <p>Utiliza el atributo novalidate para evitar la validación de formularios en envíos.</p>
+
+        <h4>Nuevos Atributos</h4>
+
+        <p>HTML5 ha introducido un nuevo atributo llamado <b>placeholder</b>. En los elementos &lt;input&gt; y &lt;textarea&gt; este atributo provee una indicación al usuario de qué información puede ser ingresada en el campo.</p>
+        <p>&lt;form&gt;<br> &lt;label for="email"&gt;Your e-mail address: &lt;/label&gt;<br> &lt;input type="text" name="email" placeholder="email@example.com" /&gt;<br> &lt;/form&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_46.jpeg" alt="">
+        <p>El atributo <b>autofocus</b> hace que el cursor se posicione en el campo de entrada deseado cuando el formulario se carga:</p>
+        <p>&lt;form&gt;<br> &lt;label for="email"&gt;Your e-mail address: &lt;/label&gt;<br> &lt;input type="text" name="email" autofocus /&gt;<br> &lt;/form&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_47.jpeg" alt="">
+        <p>El atributo required dice al navegador que el campo de entrada es obligatorio.</p>
+
+        <h4>Formularios con campos requeridos</h4>
+
+        <p>El atributo "<b>required</b>" es usado para crear los elementos de entrada necesarios:</p>
+        <p>&lt;form autocomplete="off"&gt;<br> &lt;label for="e-mail"&gt;Su e-mail: &lt;/label&gt;<br> &lt;input name="Email" type="text" required /&gt;<br> &lt;input type="submit" value="Submit" /&gt;<br> &lt;/form&gt;
+        </p>
+        <p>El formulario no será enviado sin llenar los campos requeridos.</p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_48.jpeg" alt="">
+        <p>El atributo autocomplete especifica si un formulario o campo de entrada debería tener autocompletar activado o no.<br> Cuando autocompletar está activado, el explorador automáticamente completa valores basado en valores que el usuario ha ingresado
+            antes.
+        </p>
+        <p><b>HTML5 agregó varios tipos de entrada nuevos:</b><br> - color<br> - date<br> - datetime<br> - datetime-local<br> - email<br> - month<br> - number<br> - range<br> - search<br> - tel<br> - time<br> - url<br> - week<br>
+            <br>
+            <b>Nuevos atributos de entrada en HTML5:</b><br> - autofocus<br> - form<br> - formaction<br> - formenctype<br> - formmethod<br> - formnovalidate<br> - formtarget<br> - height and width<br> - list<br> - min and max<br> - multiple<br> - pattern
+            (regexp)
+            <br> - placeholder<br> - required<br> - step</p>
+        <p>Los tipos de entrada que no son soportados por exploradores web desactualizados, se comportarán como una entrada de texto.</p>
+
+        <h3 id="subindice40">Formularios HTML5, Parte 2</h3>
+
+        <h4>Creando un cuadro de búsqueda</h4>
+
+        <p>El Nuevo tipo de entrada search puede ser usado para crear un cuadro de búsqueda:</p>
+        <p>&lt;input id="mysearch" name="searchitem" type="search" /&gt;</p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_49.jpeg" alt="">
+        <p>Acuérdate de asignar un nombre a tu entrada, de lo contrario no se enviará nada.</p>
+
+        <h4>Opciones de búsqueda</h4>
+
+        <p>La etiqueta <b>&lt;datalist&gt;</b> puede ser usada para definir una lista de opciones pre-definidas para el cuadro de búsqueda:</p>
+        <p>&lt;input id="car" type="text" list="colores" /&gt;<br> &lt;datalist id="colores"&gt;<br> &lt;option value="Rojo"&gt;<br> &lt;option value="Verde"&gt;<br> &lt;option value="Amarillo"&gt;<br> &lt;/datalist&gt;
+        </p>
+        <p><b>Resultado:</b></p>
+        <img src="images/img_50.jpeg" alt="">
+        <p><b>&lt;option&gt;</b> define las opciones en una lista desplegable para que el usuario pueda seleccionar.</p>
+        <p>El ID del elemento datalist debe coincidir con el atributo list del cuadro de entrada.</p>
+
+        <h4>Creando más campos</h4>
+
+        <p>Otros tipos de entrada nuevos incluyen <b>email</b>, <b>url</b>, y <b>tel</b>:</p>
+        <p>&lt;input id="email" name="email" type="email" placeholder="example@example.com" /&gt;<br> &lt;br /&gt;<br> &lt;input id="url" name="url" type="url" placeholder="example.com" /&gt;<br> &lt;br /&gt;<br> &lt;input id="tel" name="tel" type="tel"
+            placeholder="555.555.1211" /&gt;</p>
+        <p>Estos campos son especialmente útiles cuando se abre una página en un dispositivo móvil moderno, que reconoce los tipos de entrada y abre el correspondiente teclado que coincide con el tipo de campo.</p>
+        <img src="images/img_51.jpeg" alt="">
+        <p>Estos nuevos tipos hacen más fácil estructurar y validar los formularios HTML.</p>
+</body>
+
+</html>
